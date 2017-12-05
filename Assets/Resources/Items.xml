@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ItemCollection>
+	<Items>
+		<Item id="1">
+			<Name>Bronze Ore</Name>
+			<Description>A basic ore found in most mining areas.</Description>
+			<Price>5</Price>
+			<Type>Crafting</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>//Regular
+		<Item id="2">
+			<Name>Jade Ore</Name>
+			<Description>A basic ore found in most mining areas. It can be a bithard to refine.</Description>
+			<Price>10</Price>
+			<Type>Crafting</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="3">
+			<Name>Mithril Ore</Name>
+			<Description>A rare ore found in most mining areas. It can be hard to refine.</Description>
+			<Price>15</Price>
+			<Type>Crafting</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="4">
+			<Name>Meteorite Ore</Name>
+			<Description>An extrodinary ore that can only be found from crashed meteorite..</Description>
+			<Price>25</Price>
+			<Type>Crafting</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="5">
+			<Name>Blood Ore</Name>
+			<Description>A raAnre ore found in most mining areas. It can be hard to refine.</Description>
+			<Price>50</Price>
+			<Type>Crafting</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="6">
+			<Name>Corrupt Ore</Name>
+			<Description>An extrodinary ore said to have been tainted by the blackness.</Description>
+			<Price>150</Price>
+			<Type>Crafting</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="7">
+			<Name>Bronze Bar</Name>
+			<Description>A Bar made of Bronze Ores. It takes a few to refine this into a useable substance.</Description>
+			<Price>50</Price>
+			<Type>Crafting</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>n:1;15</SoulIngredients>
+		</Item>
+		<Item id="8">
+			<Name>Jade Bar</Name>
+			<Description>A Bar made of Jade Ores. It takes a few to refine this into a useable substance.</Description>
+			<Price>100</Price>
+			<Type>Crafting</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>n:2;15</SoulIngredients>
+		</Item>
+		<Item id="9">
+			<Name>Mithril Bar</Name>
+			<Description>A Bar made of Steel Ores. It takes a lot to refine thisinto a useable substance.</Description>
+			<Price>150</Price>
+			<Type>Crafting</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>n:3;25</SoulIngredients>
+		</Item>
+		<Item id="10">
+			<Name>Meteorite Bar</Name>
+			<Description>A Bar made of Meteorite Ores. It takes a lot to refine thisinto a useable substance.</Description>
+			<Price>250</Price>
+			<Type>Crafting</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>n:4;25</SoulIngredients>
+		</Item>
+		<Item id="11">
+			<Name>Blood Bar</Name>
+			<Description>A Bar made of Blood Ores. It takes quite a bit to refine this into a useable substance.</Description>
+			<Price>500</Price>
+			<Type>Crafting</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>n:5;40</SoulIngredients>
+		</Item>
+		<Item id="12">
+			<Name>Corrupt Bar</Name>
+			<Description>A Bar made of Corrupt Ores. It takes a lot to refine this into a useable substance.</Description>
+			<Price>1500</Price>
+			<Type>Crafting</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>n:6;40</SoulIngredients>
+		</Item>
+		<Item id="13">
+			<Name>Soul Pouch</Name>
+			<Description>Inside a soul pouch is a random item, the stronger your soul the greater the reward.</Description>
+			<Price>50</Price>
+			<Type>Regular</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="14">
+			<Name>Ardilla Ticket</Name>
+			<Description>Use this ticket in order to get to Adrilla Island.</Description>
+			<Price>100</Price>
+			<Type>Regular</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="15">
+			<Name>Manshu Ticket</Name>
+			<Description>Use this ticket in order to get to Manshu Island.</Description>
+			<Price>100</Price>
+			<Type>Regular</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="16">
+			<Name>Spirit Essence</Name>
+			<Description>Said to provide the user with the ability to unlock new strengths. Recieve 3 per level.</Description>
+			<Price>500</Price>
+			<Type>Special</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>//Special
+		<Item id="17">
+			<Name>Beast Egg</Name>
+			<Description>An Egg said to be born from a monster. They can be raised as great allies.</Description>
+			<Price>500</Price>
+			<Type>Special</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="18">
+			<Name>Mystic Egg</Name>
+			<Description>An Egg said to be born from a mystical creature. They are rare to find and can be raised as great allies.</Description>
+			<Price>1500</Price>
+			<Type>Special</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="19">
+			<Name>Forsaken Egg</Name>
+			<Description>An Egg said to be born from a Forsaken. They are the hardest to tame but if raised properly they can be amazing allies.</Description>
+			<Price>2500</Price>
+			<Type>Special</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="20">
+			<Name>Book of Creation</Name>
+			<Description>A book that highly used amongst crafters of all levels.</Description>
+			<Price>2500</Price>
+			<Type>Special</Type>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="21">
+			<Name>Book of Items</Name>
+			<Description>A book that is said to catalog all the items of the world. It could be very insightful alon the journey.</Description>
+			<Price>2500</Price>
+			<Type>Special</Type>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="22">
+			<Name>Book of The Wild</Name>
+			<Description>A book that is said to catalog all creatures of the world. It could be very insightful along the journey.</Description>
+			<Price>2500</Price>
+			<Type>Special</Type>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="23">
+			<Name>Book of Souls</Name>
+			<Description>A book that is said to catalog all people of the world. It could be very insightful along the journey.</Description>
+			<Price>2500</Price>
+			<Type>Special</Type>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="24">
+			<Name>Datalog</Name>
+			<Description>A special book infused with magic it should help keep you on track throughout your journey.</Description>
+			<Price>2500</Price>
+			<Type>Special</Type>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="25">
+			<Name>Zithinion Rock</Name>
+			<Description>A special book infused with magic it should help keep you on track throughout your journey.</Description>
+			<Price>1500</Price>
+			<Type>Special</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="26">
+			<Name>Firewood</Name>
+			<Description>An item used for crafting. It is also used for setting up campfires.</Description>
+			<Price>100</Price>
+			<Type>Crafting</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>//Crafting
+		<Item id="27">
+			<Name>Bow String</Name>
+			<Description>An item used for crafting.</Description>
+			<Price>100</Price>
+			<Type>Crafting</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="28">
+			<Name>Tree Seed</Name>
+			<Description>When you cut down a tree do not forget to replant a new one.</Description>
+			<Price>100</Price>
+			<Type>Crafting</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="29">
+			<Name>Axe</Name>
+			<Description>With this tool you will be able to chop down cherry trees.</Description>
+			<Price>100</Price>
+			<Type>Crafting</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="30">
+			<Name>Pickaxe</Name>
+			<Description>With this tool you will be able to mine for unbelieveable ores.</Description>
+			<Price>100</Price>
+			<Type>Crafting</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="31">
+			<Name>The Thread of Earth</Name>
+			<Description>This is a legendary crafting item.</Description>
+			<Price>100</Price>
+			<Type>Crafting</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="32">
+			<Name>The Rock of Fire</Name>
+			<Description>This is a legendary crafting item.</Description>
+			<Price>100</Price>
+			<Type>Crafting</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="33">
+			<Name>The Rock of Ice</Name>
+			<Description>This is a legendary crafting item.</Description>
+			<Price>100</Price>
+			<Type>Crafting</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="34">
+			<Name>The Rock of Thunder</Name>
+			<Description>This is a legendary crafting item.</Description>
+			<Price>100</Price>
+			<Type>Crafting</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="35">
+			<Name>The Jem of Water</Name>
+			<Description>This is a legendary crafting item.</Description>
+			<Price>100</Price>
+			<Type>Crafting</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="36">
+			<Name>The Thread of Wind</Name>
+			<Description>This is a legendary crafting item.</Description>
+			<Price>100</Price>
+			<Type>Crafting</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="37">
+			<Name>The Jem of Holy</Name>
+			<Description>This is a legendary crafting item.</Description>
+			<Price>100</Price>
+			<Type>Crafting</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="38">
+			<Name>The Rock of Dark</Name>
+			<Description>This is a legendary crafting item.</Description>
+			<Price>100</Price>
+			<Type>Crafting</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="39">
+			<Name>Forsakened Weapon</Name>
+			<Description>This is a hollow weapon. A crafting item for weapons.</Description>
+			<Price>50</Price>
+			<Type>Crafting</Type>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="40">
+			<Name>Bullet</Name>
+			<Description>A normal bullet used in various types of guns.</Description>
+			<Price>5</Price>
+			<Type>Ammo</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>//Ammo
+		<Item id="41">
+			<Name>Blaze</Name>
+			<Description>A bullet said to have a flame hidden withen.</Description>
+			<Price>10</Price>
+			<Type>Ammo</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="42">
+			<Name>Splinter</Name>
+			<Description>A bullet said to have lighting hidden within.</Description>
+			<Price>15</Price>
+			<Type>Ammo</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="43">
+			<Name>Breeze</Name>
+			<Description>A bullet said to have ice hidden within.</Description>
+			<Price>25</Price>
+			<Type>Ammo</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="44">
+			<Name>Alpha</Name>
+			<Description>A normal bullet used in various types of guns.</Description>
+			<Price>5</Price>
+			<Type>Ammo</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="45">
+			<Name>Star</Name>
+			<Description>A normal bullet used in various types of guns.</Description>
+			<Price>5</Price>
+			<Type>Ammo</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="46">
+			<Name>Lightning</Name>
+			<Description>A normal bullet used in various types of guns.</Description>
+			<Price>10</Price>
+			<Type>Ammo</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="47">
+			<Name>Ghostly</Name>
+			<Description>A normal bullet used in various types of guns.</Description>
+			<Price>25</Price>
+			<Type>Ammo</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="48">
+			<Name>Impact</Name>
+			<Description>A normal bullet used in various types of guns.</Description>
+			<Price>5</Price>
+			<Type>Ammo</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="49">
+			<Name>Nova</Name>
+			<Description>A normal bullet used in various types of guns.</Description>
+			<Price>5</Price>
+			<Type>Ammo</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="50">
+			<Name>Suppliments</Name>
+			<Description>A normal plant fertilizer used to improve Medisea Plants.</Description>
+			<Price>5</Price>
+			<Type>Ammo</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="51">
+			<Name>Blaze Suppliments</Name>
+			<Description>A normal plant fertilizer used to improve Medisea Plants.</Description>
+			<Price>5</Price>
+			<Type>Ammo</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="52">
+			<Name>Shock Suppliments</Name>
+			<Description>A normal plant fertilizer used to improve Medisea Plants.</Description>
+			<Price>5</Price>
+			<Type>Ammo</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="53">
+			<Name>Freeze Suppliments</Name>
+			<Description>A normal plant fertilizer used to improve Medisea Plants.</Description>
+			<Price>5</Price>
+			<Type>Ammo</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+		<Item id="54">
+			<Name>Void Suppliments</Name>
+			<Description>A normal plant fertilizer used to improve Medisea Plants.</Description>
+			<Price>5</Price>
+			<Type>Ammo</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+		</Item>
+	</Items>
+</ItemCollection>

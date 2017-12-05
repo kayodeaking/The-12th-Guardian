@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NPCCollection>
+	<NPCs>
+		<NPC id="1">
+			<Name>Priest</Name>
+			<Nickname>null</Nickname>
+			<Description>Holy man, usually in charge of the church.</Description>
+			<Type>Church</Type>
+			<Age>0</Age>
+			<Gender>1</Gender>
+			<Race>1</Race>
+			<SkinColor>1</SkinColor>
+			<HairColor>1</HairColor>
+			<SkillList>null</SkillList>
+			<Class>null</Class>
+			<Level>1</Level>
+			<Body>25</Body>
+			<Soul>0</Soul>
+			<Attack>0</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<DialogueFile>Priest-Dialogue</DialogueFile>
+			<Walking>true</Walking>
+			<Playermode>false</Playermode>
+			<Found>true</Found>
+		</NPC>
+		<NPC id="1">
+			<Name>Priestess</Name>
+			<Nickname>null</Nickname>
+			<Description>Holy woman, usually in charge of the church.</Description>
+			<Type>Church</Type>
+			<Age>0</Age>
+			<Gender>2</Gender>
+			<Race>1</Race>
+			<SkinColor>1</SkinColor>
+			<HairColor>1</HairColor>
+			<SkillList>null</SkillList>
+			<Class>null</Class>
+			<Level>1</Level>
+			<Body>25</Body>
+			<Soul>0</Soul>
+			<Attack>0</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<DialogueFile>Priest-Dialogue</DialogueFile>
+			<Walking>true</Walking>
+			<Playermode>false</Playermode>
+			<Found>true</Found>
+		</NPC>
+	</NPCs>
+</NPCCollection>

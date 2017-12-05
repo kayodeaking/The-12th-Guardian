@@ -1,0 +1,1829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WeaponCollection>
+	<Weapons>
+		<Weapon id="1">
+			<Name>Wooden Sword</Name>
+			<Description>A sword carved from wood. It is not the strongest, but it will still take down a small enemy.</Description>
+			<Price>250</Price>
+			<Type>Weapon</Type>
+			<ChildType>Sword</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
+			<LevelReq>0</LevelReq>
+			<Attack>10</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>//Sword (Warrior)
+		<Weapon id="2">
+			<Name>Bronze Sword</Name>
+			<Description>A normal Sword made out of Bronze. Nothing speical just something the basic warrior receives.</Description>
+			<Price>500</Price>
+			<Type>Weapon</Type>
+			<ChildType>Sword</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>25</LevelReq>
+			<Attack>42</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="3">
+			<Name>Khopesh</Name>
+			<Description>An Egyptian sickle-sword that evolved from battle axes.</Description>
+			<Price>750</Price>
+			<Type>Weapon</Type>
+			<ChildType>Sword</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>50</LevelReq>
+			<Attack>75</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="4">
+			<Name>Makhaira</Name>
+			<Description>A term used by modern scholars to describe a type of ancient blade, generally a large knife or sword.</Description>
+			<Price>1000</Price>
+			<Type>Weapon</Type>
+			<ChildType>Sword</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>75</LevelReq>
+			<Attack>92</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="5">
+			<Name>Acinaces</Name>
+			<Description>A type of short sword used mainly in the first {Insert definion of a Long time ago}</Description>
+			<Price>1500</Price>
+			<Type>Weapon</Type>
+			<ChildType>Sword</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>100</LevelReq>
+			<Attack>111</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="6">
+			<Name>Arming Sword</Name>
+			<Description>A straight, double-edged weapon with a single-handed cruciform hilt</Description>
+			<Price>2000</Price>
+			<Type>Weapon</Type>
+			<ChildType>Sword</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>125</LevelReq>
+			<Attack>136</Attack>
+			<Defense>5</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>5</MagicDefense>
+			<Agility>5</Agility>
+			<Luck>5</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="7">
+			<Name>Butterfly Sword</Name>
+			<Description>A short dao, or single-edged sword, originaly from southern China.</Description>
+			<Price>2500</Price>
+			<Type>Weapon</Type>
+			<ChildType>Sword</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>150</LevelReq>
+			<Attack>163</Attack>
+			<Defense>10</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>5</MagicDefense>
+			<Agility>8</Agility>
+			<Luck>8</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="8">
+			<Name>Uchigatana</Name>
+			<Description>A type of Naga sword said to be used by their anicent warriors.</Description>
+			<Price>3000</Price>
+			<Type>Weapon</Type>
+			<ChildType>Sword</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>175</LevelReq>
+			<Attack>189</Attack>
+			<Defense>15</Defense>
+			<MagicAttack>5</MagicAttack>
+			<MagicDefense>10</MagicDefense>
+			<Agility>12</Agility>
+			<Luck>12</Luck>
+			<Body>100</Body>
+			<Soul>100</Soul>
+			<SoulSlots>4</SoulSlots>
+		</Weapon>
+		<Weapon id="9">
+			<Name>Wooden Long Sword</Name>
+			<Description>This is a category that needs to be done</Description>
+			<Price>250</Price>
+			<Type>Weapon</Type>
+			<ChildType>2-Handed Sword</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>0</LevelReq>
+			<Attack>15</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>0</SoulSlots>
+		</Weapon>//2H-Sword (Warrior)
+		<Weapon id="10">
+			<Name>2-Handed Sword</Name>
+			<Description>TA two handed sword handed to warriors once they have completed their basic training with double handed weapons.</Description>
+			<Price>500</Price>
+			<Type>Weapon</Type>
+			<ChildType>2-Handed Sword</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>25</LevelReq>
+			<Attack>49</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="11">
+			<Name>Woeful Iron Greatsword</Name>
+			<Description>A Gaint Iron Sword said to contain the sorrows of the enemies it has slane</Description>
+			<Price>750</Price>
+			<Type>Weapon</Type>
+			<ChildType>2-Handed Sword</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>50</LevelReq>
+			<Attack>80</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="12">
+			<Name>Knightfall</Name>
+			<Description>A weapon clamed to only be used by the most elite knights</Description>
+			<Price>1000</Price>
+			<Type>Weapon</Type>
+			<ChildType>2-Handed Sword</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>75</LevelReq>
+			<Attack>105</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="13">
+			<Name>Celeste</Name>
+			<Description>A mystical sword, only to be weilded by those who are deemed worthy.</Description>
+			<Price>1500</Price>
+			<Type>Weapon</Type>
+			<ChildType>2-Handed Sword</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>100</LevelReq>
+			<Attack>127</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="14">
+			<Name>Severance</Name>
+			<Description>A sword with the ability to cut anything in its way in half.</Description>
+			<Price>2000</Price>
+			<Type>Weapon</Type>
+			<ChildType>2-Handed Sword</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>125</LevelReq>
+			<Attack>156</Attack>
+			<Defense>5</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>5</MagicDefense>
+			<Agility>5</Agility>
+			<Luck>5</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="15">
+			<Name>Soul Reaper</Name>
+			<Description>One of the legendary two handed swords, given its name due to the amount of deaths it has caused.</Description>
+			<Price>2500</Price>
+			<Type>Weapon</Type>
+			<ChildType>2-Handed Sword</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>150</LevelReq>
+			<Attack>185</Attack>
+			<Defense>10</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>5</MagicDefense>
+			<Agility>8</Agility>
+			<Luck>8</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="16">
+			<Name>Ragnarok</Name>
+			<Description>A legendary sword said to give its weilders the ability to achieve their goals.</Description>
+			<Price>3000</Price>
+			<Type>Weapon</Type>
+			<ChildType>2-Handed Sword</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>175</LevelReq>
+			<Attack>201</Attack>
+			<Defense>15</Defense>
+			<MagicAttack>5</MagicAttack>
+			<MagicDefense>10</MagicDefense>
+			<Agility>12</Agility>
+			<Luck>12</Luck>
+			<Body>100</Body>
+			<Soul>100</Soul>
+			<SoulSlots>4</SoulSlots>
+		</Weapon>
+		<Weapon id="17">
+			<Name>Axe</Name>
+			<Description>A regular axe, though not one used for chopping wood.</Description>
+			<Price>250</Price>
+			<Type>Weapon</Type>
+			<ChildType>Axe</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>0</LevelReq>
+			<Attack>12</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>0</SoulSlots>
+		</Weapon>//Axe (Warrior)
+		<Weapon id="18">
+			<Name>Battle Axe</Name>
+			<Description>A regular axe, though not one used for chopping wood.</Description>
+			<Price>250</Price>
+			<Type>Weapon</Type>
+			<ChildType>Axe</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>0</LevelReq>
+			<Attack>12</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>0</SoulSlots>
+		</Weapon>
+		<Weapon id="19">
+			<Name>Dawn's Edge</Name>
+			<Description>A regular axe, though not one used for chopping wood.</Description>
+			<Price>250</Price>
+			<Type>Weapon</Type>
+			<ChildType>Axe</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>0</LevelReq>
+			<Attack>12</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>0</SoulSlots>
+		</Weapon>
+		<Weapon id="20">
+			<Name>Crescent Venom</Name>
+			<Description>A regular axe, though not one used for chopping wood.</Description>
+			<Price>250</Price>
+			<Type>Weapon</Type>
+			<ChildType>Axe</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>0</LevelReq>
+			<Attack>12</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>0</SoulSlots>
+		</Weapon>
+		<Weapon id="21">
+			<Name>Midnight</Name>
+			<Description>A regular axe, though not one used for chopping wood.</Description>
+			<Price>250</Price>
+			<Type>Weapon</Type>
+			<ChildType>Axe</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>0</LevelReq>
+			<Attack>12</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>0</SoulSlots>
+		</Weapon>
+		<Weapon id="22">
+			<Name>Hellreaver</Name>
+			<Description>A regular axe, though not one used for chopping wood.</Description>
+			<Price>250</Price>
+			<Type>Weapon</Type>
+			<ChildType>Axe</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>0</LevelReq>
+			<Attack>12</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>0</SoulSlots>
+		</Weapon>
+		<Weapon id="23">
+			<Name>Deathraze</Name>
+			<Description>A regular axe, though not one used for chopping wood.</Description>
+			<Price>250</Price>
+			<Type>Weapon</Type>
+			<ChildType>Axe</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>0</LevelReq>
+			<Attack>12</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>0</SoulSlots>
+		</Weapon>
+		<Weapon id="24">
+			<Name>Nethersbane</Name>
+			<Description>A regular axe, though not one used for chopping wood.</Description>
+			<Price>250</Price>
+			<Type>Weapon</Type>
+			<ChildType>Axe</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>0</LevelReq>
+			<Attack>12</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>0</SoulSlots>
+		</Weapon>
+		<Weapon id="25">
+			<Name>Claw</Name>
+			<Description>Just a regular old claw, used for training to throw stars.</Description>
+			<Price>250</Price>
+			<Type>Weapon</Type>
+			<ChildType>Glove</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>0</LevelReq>
+			<Attack>5</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>//Claw (Theif)
+		<Weapon id="26">
+			<Name>Metalic Claw</Name>
+			<Description>A more improved glove, it has a bit more breathing room to improve power and accuracy.</Description>
+			<Price>500</Price>
+			<Type>Weapon</Type>
+			<ChildType>Glove</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>25</LevelReq>
+			<Attack>31</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="27">
+			<Name>Ray</Name>
+			<Description>A glove said to have one of the most accurate aim.</Description>
+			<Price>750</Price>
+			<Type>Weapon</Type>
+			<ChildType>Glove</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>50</LevelReq>
+			<Attack>69</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="28">
+			<Name>Whisker</Name>
+			<Description>Not a clever name but this glove is nonthing to be taken too lightly,</Description>
+			<Price>1000</Price>
+			<Type>Weapon</Type>
+			<ChildType>Glove</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>75</LevelReq>
+			<Attack>97</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="29">
+			<Name>Blaze</Name>
+			<Description>Named after its rumort to create a path of fire behind its attacks.</Description>
+			<Price>1500</Price>
+			<Type>Weapon</Type>
+			<ChildType>Glove</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>100</LevelReq>
+			<Attack>113</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="30">
+			<Name>Dragonbreath</Name>
+			<Description>A glove said to be created only be the hands of the master Naga Black Smiths.</Description>
+			<Price>2000</Price>
+			<Type>Weapon</Type>
+			<ChildType>Glove</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>125</LevelReq>
+			<Attack>139</Attack>
+			<Defense>5</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>5</MagicDefense>
+			<Agility>8</Agility>
+			<Luck>8</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="31">
+			<Name>Cinder</Name>
+			<Description>Created with the remains of the forsaken.</Description>
+			<Price>2500</Price>
+			<Type>Weapon</Type>
+			<ChildType>Glove</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>150</LevelReq>
+			<Attack>161</Attack>
+			<Defense>10</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>5</MagicDefense>
+			<Agility>12</Agility>
+			<Luck>12</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="32">
+			<Name>Void</Name>
+			<Description>Nothing in the path of this weapons attacks will be left to exist.</Description>
+			<Price>3000</Price>
+			<Type>Weapon</Type>
+			<ChildType>Glove</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>175</LevelReq>
+			<Attack>188</Attack>
+			<Defense>15</Defense>
+			<MagicAttack>5</MagicAttack>
+			<MagicDefense>10</MagicDefense>
+			<Agility>16</Agility>
+			<Luck>16</Luck>
+			<Body>100</Body>
+			<Soul>100</Soul>
+			<SoulSlots>4</SoulSlots>
+		</Weapon>
+		<Weapon id="33">
+			<Name>Wood Knife</Name>
+			<Description>A knife caraved from wood, nothing special in the hands of an untraine weilder.</Description>
+			<Price>250</Price>
+			<Type>Weapon</Type>
+			<ChildType>Dagger</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>0</LevelReq>
+			<Attack>8</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>//Dagger (Theif)
+		<Weapon id="34">
+			<Name>Dagger</Name>
+			<Description>A weapon of choice for most, if not all, assaissins.</Description>
+			<Price>500</Price>
+			<Type>Weapon</Type>
+			<ChildType>Dagger</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>25</LevelReq>
+			<Attack>41</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="35">
+			<Name>Prick</Name>
+			<Description>Named after its swiftness, you may not even feel this weapon attack you.</Description>
+			<Price>750</Price>
+			<Type>Weapon</Type>
+			<ChildType>Dagger</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>50</LevelReq>
+			<Attack>74</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="36">
+			<Name>Ghostwalker</Name>
+			<Description>Named after the assassin that once weilded it.</Description>
+			<Price>1000</Price>
+			<Type>Weapon</Type>
+			<ChildType>Dagger</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>75</LevelReq>
+			<Attack>99</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="37">
+			<Name>Kingsfall</Name>
+			<Description>A dagger of the first Twilight Guradian, also said to be the weapon that brought his downfall</Description>
+			<Price>1500</Price>
+			<Type>Weapon</Type>
+			<ChildType>Dagger</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>100</LevelReq>
+			<Attack>111</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="38">
+			<Name>Incision</Name>
+			<Description>A dagger said to be used in only the most sensitive assassinations.</Description>
+			<Price>2000</Price>
+			<Type>Weapon</Type>
+			<ChildType>Dagger</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>125</LevelReq>
+			<Attack>136</Attack>
+			<Defense>5</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>5</MagicDefense>
+			<Agility>8</Agility>
+			<Luck>8</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="39">
+			<Name>Dragonclaw</Name>
+			<Description>Rumored to be created from the claw of a dragon, this dagger is almost indestructible.</Description>
+			<Price>2500</Price>
+			<Type>Weapon</Type>
+			<ChildType>Dagger</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>150</LevelReq>
+			<Attack>158</Attack>
+			<Defense>10</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>5</MagicDefense>
+			<Agility>12</Agility>
+			<Luck>12</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="40">
+			<Name>Bonescraper</Name>
+			<Description>Created from the bones of the forsaken.</Description>
+			<Price>3000</Price>
+			<Type>Weapon</Type>
+			<ChildType>Dagger</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>175</LevelReq>
+			<Attack>173</Attack>
+			<Defense>15</Defense>
+			<MagicAttack>5</MagicAttack>
+			<MagicDefense>10</MagicDefense>
+			<Agility>16</Agility>
+			<Luck>16</Luck>
+			<Body>100</Body>
+			<Soul>100</Soul>
+			<SoulSlots>4</SoulSlots>
+		</Weapon>
+		<Weapon id="41">
+			<Name>Glove</Name>
+			<Description>Just a regular old glove.</Description>
+			<Price>250</Price>
+			<Type>Weapon</Type>
+			<ChildType>Glove</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>0</LevelReq>
+			<Attack>7</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>4</SoulSlots>
+		</Weapon>//Glove (Theif)
+		<Weapon id="42">
+			<Name>Leather Glove</Name>
+			<Description>A more improved glove for fighting.</Description>
+			<Price>500</Price>
+			<Type>Weapon</Type>
+			<ChildType>Glove</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>25</LevelReq>
+			<Attack>32</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="43">
+			<Name>Fighting Glove</Name>
+			<Description>This glove was made to get a little dirty.</Description>
+			<Price>750</Price>
+			<Type>Weapon</Type>
+			<ChildType>Glove</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>50</LevelReq>
+			<Attack>69</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="44">
+			<Name>Star Plantinum</Name>
+			<Description>A barrage of punches can be produced with these gloves.</Description>
+			<Price>1000</Price>
+			<Type>Weapon</Type>
+			<ChildType>Glove</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>75</LevelReq>
+			<Attack>97</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="45">
+			<Name>Golden Hands</Name>
+			<Description>These gloves bring have a gloden shine with a golden strength.</Description>
+			<Price>1500</Price>
+			<Type>Weapon</Type>
+			<ChildType>Glove</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>100</LevelReq>
+			<Attack>118</Attack>
+			<Defense>3</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>8</Agility>
+			<Luck>5</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="46">
+			<Name>El Deablo</Name>
+			<Description>Said to be like a punch from the devil himsef.</Description>
+			<Price>2000</Price>
+			<Type>Weapon</Type>
+			<ChildType>Glove</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>125</LevelReq>
+			<Attack>141</Attack>
+			<Defense>3</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>8</Agility>
+			<Luck>5</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="47">
+			<Name>Master Palm</Name>
+			<Description>Let the fighting palms of a master fighter guide you.</Description>
+			<Price>2500</Price>
+			<Type>Weapon</Type>
+			<ChildType>Glove</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>150</LevelReq>
+			<Attack>163</Attack>
+			<Defense>5</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>12</Agility>
+			<Luck>8</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="48">
+			<Name>Dragon Fist</Name>
+			<Description>Embody the strength of a dragon within your fists.</Description>
+			<Price>3000</Price>
+			<Type>Weapon</Type>
+			<ChildType>Glove</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>175</LevelReq>
+			<Attack>181</Attack>
+			<Defense>5</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>16</Agility>
+			<Luck>12</Luck>
+			<Body>100</Body>
+			<Soul>100</Soul>
+			<SoulSlots>4</SoulSlots>
+		</Weapon>
+		<Weapon id="49">
+			<Name>Gun</Name>
+			<Description>An old time pistol, it goes pew pew.</Description>
+			<Price>250</Price>
+			<Type>Weapon</Type>
+			<ChildType>Gun</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>0</LevelReq>
+			<Attack>10</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>//Gun (Archer)
+		<Weapon id="50">
+			<Name>Nina</Name>
+			<Description>An old time pistol, it goes pew pew.</Description>
+			<Price>250</Price>
+			<Type>Weapon</Type>
+			<ChildType>Gun</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>0</LevelReq>
+			<Attack>10</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="51">
+			<Name>Rapture</Name>
+			<Description>An old time pistol, it goes pew pew.</Description>
+			<Price>250</Price>
+			<Type>Weapon</Type>
+			<ChildType>Gun</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>0</LevelReq>
+			<Attack>10</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="52">
+			<Name>Finality</Name>
+			<Description>An old time pistol, it goes pew pew.</Description>
+			<Price>250</Price>
+			<Type>Weapon</Type>
+			<ChildType>Gun</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>0</LevelReq>
+			<Attack>10</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="53">
+			<Name>Oathkeeper</Name>
+			<Description>An old time pistol, it goes pew pew.</Description>
+			<Price>250</Price>
+			<Type>Weapon</Type>
+			<ChildType>Gun</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>0</LevelReq>
+			<Attack>10</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="54">
+			<Name>Bloodmoon</Name>
+			<Description>An old time pistol, it goes pew pew.</Description>
+			<Price>250</Price>
+			<Type>Weapon</Type>
+			<ChildType>Gun</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>0</LevelReq>
+			<Attack>10</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="55">
+			<Name>Ebony</Name>
+			<Description>An old time pistol, it goes pew pew.</Description>
+			<Price>250</Price>
+			<Type>Weapon</Type>
+			<ChildType>Gun</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>0</LevelReq>
+			<Attack>10</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="56">
+			<Name>Ivory</Name>
+			<Description>An old time pistol, it goes pew pew.</Description>
+			<Price>250</Price>
+			<Type>Weapon</Type>
+			<ChildType>Gun</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>0</LevelReq>
+			<Attack>10</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="57">
+			<Name>Bow</Name>
+			<Description>A starter weapon for an archer, given to them as soon as they have chosen their path.</Description>
+			<Price>250</Price>
+			<Type>Weapon</Type>
+			<ChildType>Bow</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>0</LevelReq>
+			<Attack>13</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>//Bow (Archer)
+		<Weapon id="58">
+			<Name>Hunting Bow</Name>
+			<Description>A bow used in hunting down animals, after learning more about archery this is the next step in line.</Description>
+			<Price>500</Price>
+			<Type>Weapon</Type>
+			<ChildType>Bow</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>25</LevelReq>
+			<Attack>47</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="59">
+			<Name>Windrunner</Name>
+			<Description>One of two mystic elven bows, it shouldn't be taken lightly on the battlefield.</Description>
+			<Price>750</Price>
+			<Type>Weapon</Type>
+			<ChildType>Bow</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>50</LevelReq>
+			<Attack>79</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="60">
+			<Name>Twisted</Name>
+			<Description>A bow with the ability to shoot an arrow with a powerful topspin.</Description>
+			<Price>1000</Price>
+			<Type>Weapon</Type>
+			<ChildType>Bow</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>75</LevelReq>
+			<Attack>101</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="61">
+			<Name>Arrowspike</Name>
+			<Description>A bow made for only those on their way to being expert archers.</Description>
+			<Price>1500</Price>
+			<Type>Weapon</Type>
+			<ChildType>Bow</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>100</LevelReq>
+			<Attack>128</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="62">
+			<Name>Siren's Cry</Name>
+			<Description>One of two mystic eleven bows, it shouldn't be taken lightly on the battlefield.</Description>
+			<Price>2000</Price>
+			<Type>Weapon</Type>
+			<ChildType>Bow</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>125</LevelReq>
+			<Attack>152</Attack>
+			<Defense>5</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>5</MagicDefense>
+			<Agility>8</Agility>
+			<Luck>5</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="63">
+			<Name>Thunder</Name>
+			<Description>Named after the sound it makes once the arrow has been fired.</Description>
+			<Price>2500</Price>
+			<Type>Weapon</Type>
+			<ChildType>Bow</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>150</LevelReq>
+			<Attack>175</Attack>
+			<Defense>10</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>5</MagicDefense>
+			<Agility>12</Agility>
+			<Luck>8</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="64">
+			<Name>Phantom</Name>
+			<Description>Said to be used by the notorius archer, Phantom. No one has seen him for years.</Description>
+			<Price>3000</Price>
+			<Type>Weapon</Type>
+			<ChildType>Bow</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>175</LevelReq>
+			<Attack>198</Attack>
+			<Defense>15</Defense>
+			<MagicAttack>5</MagicAttack>
+			<MagicDefense>10</MagicDefense>
+			<Agility>16</Agility>
+			<Luck>12</Luck>
+			<Body>100</Body>
+			<Soul>100</Soul>
+			<SoulSlots>4</SoulSlots>
+		</Weapon>
+		<Weapon id="65">
+			<Name>Crossbow</Name>
+			<Description>A starter weapon for an archer, given to them as siib as they have chosen their path.</Description>
+			<Price>250</Price>
+			<Type>Weapon</Type>
+			<ChildType>Crossbow</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>0</LevelReq>
+			<Attack>11</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>//Crossbow (Archer)
+		<Weapon id="66">
+			<Name>Hunting Crossbow</Name>
+			<Description>A bow used in hunting down animals, after learning more about archer this is the next step in line.</Description>
+			<Price>500</Price>
+			<Type>Weapon</Type>
+			<ChildType>Crossbow</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>25</LevelReq>
+			<Attack>39</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="67">
+			<Name>Arrowsong</Name>
+			<Description>One of the two mystic elven crossbows, it shouldn't be taken lightly on the battlefield</Description>
+			<Price>750</Price>
+			<Type>Weapon</Type>
+			<ChildType>Crossbow</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>50</LevelReq>
+			<Attack>63</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="68">
+			<Name>Scorpio</Name>
+			<Description>A crossbow the the power to shoot an arrow, creating a sting like a scorpion.</Description>
+			<Price>1000</Price>
+			<Type>Weapon</Type>
+			<ChildType>Crossbow</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>75</LevelReq>
+			<Attack>92</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="69">
+			<Name>Razorwind</Name>
+			<Description>One of two mystic elven crossbows, it shouldn't be taken lightly on the battlefield.</Description>
+			<Price>1500</Price>
+			<Type>Weapon</Type>
+			<ChildType>Crossbow</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>100</LevelReq>
+			<Attack>113</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="70">
+			<Name>Twister</Name>
+			<Description>A crossbow with the ability to shoot an arrow with a powerful topspin.</Description>
+			<Price>2000</Price>
+			<Type>Weapon</Type>
+			<ChildType>Crossbow</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>125</LevelReq>
+			<Attack>131</Attack>
+			<Defense>5</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>5</MagicDefense>
+			<Agility>8</Agility>
+			<Luck>5</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="71">
+			<Name>Death's Kiss</Name>
+			<Description>Rumored to be the weapon death used before he became death.</Description>
+			<Price>2500</Price>
+			<Type>Weapon</Type>
+			<ChildType>Crossbow</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>150</LevelReq>
+			<Attack>158</Attack>
+			<Defense>10</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>5</MagicDefense>
+			<Agility>12</Agility>
+			<Luck>8</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="72">
+			<Name>Netherstrand</Name>
+			<Description>The string used on this crossbow is unlike anything created before its time.</Description>
+			<Price>3000</Price>
+			<Type>Weapon</Type>
+			<ChildType>Crossbow</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>175</LevelReq>
+			<Attack>180</Attack>
+			<Defense>15</Defense>
+			<MagicAttack>5</MagicAttack>
+			<MagicDefense>10</MagicDefense>
+			<Agility>16</Agility>
+			<Luck>12</Luck>
+			<Body>100</Body>
+			<Soul>100</Soul>
+			<SoulSlots>4</SoulSlots>
+		</Weapon>
+		<Weapon id="73">
+			<Name>Wand</Name>
+			<Description>A basicn maystical weapon. One of the tow choices for people learning magic.</Description>
+			<Price>250</Price>
+			<Type>Weapon</Type>
+			<ChildType>Wand</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>0</LevelReq>
+			<Attack>0</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>8</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>//Wand (Mage)
+		<Weapon id="74">
+			<Name>Metalic Wand</Name>
+			<Description>A wand created from a more sturdder metalic substance. Used for magical spells</Description>
+			<Price>500</Price>
+			<Type>Weapon</Type>
+			<ChildType>Wand</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>25</LevelReq>
+			<Attack>0</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>27</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="75">
+			<Name>Riddle</Name>
+			<Description>A wand said to be full of mysteries.</Description>
+			<Price>750</Price>
+			<Type>Weapon</Type>
+			<ChildType>Wand</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>50</LevelReq>
+			<Attack>0</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>49</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="76">
+			<Name>Ivory</Name>
+			<Description>Named after its beautiful color, this wand is a rare find on its own.</Description>
+			<Price>1000</Price>
+			<Type>Weapon</Type>
+			<ChildType>Wand</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>75</LevelReq>
+			<Attack>0</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>72</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="77">
+			<Name>Cresecent</Name>
+			<Description>One of two Moon wands, said to have been hidden awayfrom the world.</Description>
+			<Price>1500</Price>
+			<Type>Weapon</Type>
+			<ChildType>Wand</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>100</LevelReq>
+			<Attack>0</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>99</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="78">
+			<Name>Midnight</Name>
+			<Description>A Dark wand, said to have been created in secret under the dark moonlight.</Description>
+			<Price>2000</Price>
+			<Type>Weapon</Type>
+			<ChildType>Wand</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>125</LevelReq>
+			<Attack>3</Attack>
+			<Defense>5</Defense>
+			<MagicAttack>118</MagicAttack>
+			<MagicDefense>10</MagicDefense>
+			<Agility>5</Agility>
+			<Luck>8</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="79">
+			<Name>Deathsong</Name>
+			<Description>With this wand you can create a song of destruction towards your enemies.</Description>
+			<Price>2500</Price>
+			<Type>Weapon</Type>
+			<ChildType>Wand</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>150</LevelReq>
+			<Attack>5</Attack>
+			<Defense>8</Defense>
+			<MagicAttack>135</MagicAttack>
+			<MagicDefense>20</MagicDefense>
+			<Agility>5</Agility>
+			<Luck>12</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>3</SoulSlots>
+		</Weapon>
+		<Weapon id="80">
+			<Name>Dreamshadow</Name>
+			<Description>The last wand of its kind, named after one of the four mystical arts.</Description>
+			<Price>3000</Price>
+			<Type>Weapon</Type>
+			<ChildType>Wand</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>175</LevelReq>
+			<Attack>8</Attack>
+			<Defense>8</Defense>
+			<MagicAttack>157</MagicAttack>
+			<MagicDefense>35</MagicDefense>
+			<Agility>8</Agility>
+			<Luck>16</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>4</SoulSlots>
+		</Weapon>
+		<Weapon id="81">
+			<Name>Cane</Name>
+			<Description>A wooden object, ususally used to help elderly move around. Can also be used as a magical item.</Description>
+			<Price>250</Price>
+			<Type>Weapon</Type>
+			<ChildType>Staff</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>0</LevelReq>
+			<Attack>8</Attack>
+			<Defense>8</Defense>
+			<MagicAttack>157</MagicAttack>
+			<MagicDefense>35</MagicDefense>
+			<Agility>8</Agility>
+			<Luck>16</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>4</SoulSlots>
+		</Weapon>//Staff (Mage)
+		<Weapon id="82">
+			<Name>Staff</Name>
+			<Description>A magical rod used to cast the most basic of spells.</Description>
+			<Price>250</Price>
+			<Type>Weapon</Type>
+			<ChildType>Staff</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>0</LevelReq>
+			<Attack>8</Attack>
+			<Defense>8</Defense>
+			<MagicAttack>157</MagicAttack>
+			<MagicDefense>35</MagicDefense>
+			<Agility>8</Agility>
+			<Luck>16</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>4</SoulSlots>
+		</Weapon>
+		<Weapon id="83">
+			<Name>Storm</Name>
+			<Description>Named after its creaters most favorite of all spells, this magical item comes with a bit of a wild side.</Description>
+			<Price>250</Price>
+			<Type>Weapon</Type>
+			<ChildType>Staff</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>0</LevelReq>
+			<Attack>8</Attack>
+			<Defense>8</Defense>
+			<MagicAttack>157</MagicAttack>
+			<MagicDefense>35</MagicDefense>
+			<Agility>8</Agility>
+			<Luck>16</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>4</SoulSlots>
+		</Weapon>
+		<Weapon id="84">
+			<Name>Apostle</Name>
+			<Description>Said to be a staff used by one of the great apostles in the land.</Description>
+			<Price>250</Price>
+			<Type>Weapon</Type>
+			<ChildType>Staff</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>0</LevelReq>
+			<Attack>8</Attack>
+			<Defense>8</Defense>
+			<MagicAttack>157</MagicAttack>
+			<MagicDefense>35</MagicDefense>
+			<Agility>8</Agility>
+			<Luck>16</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>4</SoulSlots>
+		</Weapon>
+		<Weapon id="85">
+			<Name>Nightfall</Name>
+			<Description>Descend darkness on to the world around you.</Description>
+			<Price>250</Price>
+			<Type>Weapon</Type>
+			<ChildType>Staff</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>0</LevelReq>
+			<Attack>8</Attack>
+			<Defense>8</Defense>
+			<MagicAttack>157</MagicAttack>
+			<MagicDefense>35</MagicDefense>
+			<Agility>8</Agility>
+			<Luck>16</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>4</SoulSlots>
+		</Weapon>
+		<Weapon id="86">
+			<Name>Fierce Spire</Name>
+			<Description>Named after the dragon's bone it was created from, this is a powerful magical item.</Description>
+			<Price>250</Price>
+			<Type>Weapon</Type>
+			<ChildType>Staff</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>0</LevelReq>
+			<Attack>8</Attack>
+			<Defense>8</Defense>
+			<MagicAttack>157</MagicAttack>
+			<MagicDefense>35</MagicDefense>
+			<Agility>8</Agility>
+			<Luck>16</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>4</SoulSlots>
+		</Weapon>
+		<Weapon id="87">
+			<Name>Dreambender</Name>
+			<Description>Used by a black mage in order to bend the dreams of his enemies.</Description>
+			<Price>250</Price>
+			<Type>Weapon</Type>
+			<ChildType>Staff</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>0</LevelReq>
+			<Attack>8</Attack>
+			<Defense>8</Defense>
+			<MagicAttack>157</MagicAttack>
+			<MagicDefense>35</MagicDefense>
+			<Agility>8</Agility>
+			<Luck>16</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>4</SoulSlots>
+		</Weapon>
+		<Weapon id="88">
+			<Name>Apocalypse</Name>
+			<Description>This magical item is said to bring the end of the world with it, it is nothing to laugh about.</Description>
+			<Price>250</Price>
+			<Type>Weapon</Type>
+			<ChildType>Staff</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>0</LevelReq>
+			<Attack>8</Attack>
+			<Defense>8</Defense>
+			<MagicAttack>157</MagicAttack>
+			<MagicDefense>35</MagicDefense>
+			<Agility>8</Agility>
+			<Luck>16</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>4</SoulSlots>
+		</Weapon>
+		<Weapon id="89">
+			<Name>Medisea Seed</Name>
+			<Description>Newely developed weapons. Said to be stronger than guns.</Description>
+			<Price>0</Price>
+			<Type>Weapon</Type>
+			<ChildType>Medisea Seed</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>0</LevelReq>
+			<Attack>0</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>0</SoulSlots>
+		</Weapon>//Medisea Seed (Mage)
+		<Weapon id="90">
+			<Name>Ditto</Name>
+			<Description>Newely developed weapons. Said to be stronger than guns.</Description>
+			<Price>0</Price>
+			<Type>Weapon</Type>
+			<ChildType>Medisea Seed</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>0</LevelReq>
+			<Attack>0</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>0</SoulSlots>
+		</Weapon>
+		<Weapon id="91">
+			<Name>Trauma</Name>
+			<Description>Newely developed weapons. Said to be stronger than guns.</Description>
+			<Price>0</Price>
+			<Type>Weapon</Type>
+			<ChildType>Medisea Seed</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>0</LevelReq>
+			<Attack>0</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>0</SoulSlots>
+		</Weapon>
+		<Weapon id="92">
+			<Name>Jolt</Name>
+			<Description>Newely developed weapons. Said to be stronger than guns.</Description>
+			<Price>0</Price>
+			<Type>Weapon</Type>
+			<ChildType>Medisea Seed</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>0</LevelReq>
+			<Attack>0</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>0</SoulSlots>
+		</Weapon>
+		<Weapon id="93">
+			<Name>Typhoon</Name>
+			<Description>Newely developed weapons. Said to be stronger than guns.</Description>
+			<Price>0</Price>
+			<Type>Weapon</Type>
+			<ChildType>Medisea Seed</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>0</LevelReq>
+			<Attack>0</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>0</SoulSlots>
+		</Weapon>
+		<Weapon id="94">
+			<Name>Glaze</Name>
+			<Description>Newely developed weapons. Said to be stronger than guns.</Description>
+			<Price>0</Price>
+			<Type>Weapon</Type>
+			<ChildType>Medisea Seed</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>0</LevelReq>
+			<Attack>0</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>0</SoulSlots>
+		</Weapon>
+		<Weapon id="95">
+			<Name>Dawn</Name>
+			<Description>Newely developed weapons. Said to be stronger than guns.</Description>
+			<Price>0</Price>
+			<Type>Weapon</Type>
+			<ChildType>Medisea Seed</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>0</LevelReq>
+			<Attack>0</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>0</SoulSlots>
+		</Weapon>
+		<Weapon id="96">
+			<Name>Ember</Name>
+			<Description>Newely developed weapons. Said to be stronger than guns.</Description>
+			<Price>0</Price>
+			<Type>Weapon</Type>
+			<ChildType>Medisea Seed</ChildType>
+			<Consumable>false</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<LevelReq>0</LevelReq>
+			<Attack>0</Attack>
+			<Defense>0</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>0</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>0</SoulSlots>
+		</Weapon>
+</Weapons>
+</WeaponCollection>

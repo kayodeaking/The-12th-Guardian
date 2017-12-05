@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EssenceCollection>
+	<Essences>
+		<Essence id="1">
+			<Name>Essence of the Body</Name>
+			<Description>Coating your weapon in this liquid is said to give it mystical properties.</Description>
+			<Price>1500</Price>
+			<Type>Essence</Type>
+			<Consumable>true</Consumable>
+			<Effector>Health</Effector>
+			<Amount>25</Amount>
+		</Essence>
+		<Essence id="2">
+			<Name>Essence of the Soul</Name>
+			<Description>Coating your weapon in this liquid is said to give it mystical properties.</Description>
+			<Price>1500</Price>
+			<Type>Essence</Type>
+			<Consumable>true</Consumable>
+			<Effector>Magic</Effector>
+			<Amount>25</Amount>
+		</Essence>
+		<Essence id="3">
+			<Name>Essence of Power</Name>
+			<Description>Coating your weapon in this liquid is said to give it mystical properties.</Description>
+			<Price>1500</Price>
+			<Type>Essence</Type>
+			<Consumable>true</Consumable>
+			<Effector>Attack</Effector>
+			<Amount>25</Amount>
+		</Essence>
+		<Essence id="4">
+			<Name>Essence of Defense</Name>
+			<Description>Coating your weapon in this liquid is said to give it mystical properties.</Description>
+			<Price>1500</Price>
+			<Type>Essence</Type>
+			<Consumable>true</Consumable>
+			<Effector>Defense</Effector>
+			<Amount>25</Amount>
+		</Essence>
+		<Essence id="5">
+			<Name>Essence of Magic Power</Name>
+			<Description>Coating your weapon in this liquid is said to give it mystical properties.</Description>
+			<Price>1500</Price>
+			<Type>Essence</Type>
+			<Consumable>true</Consumable>
+			<Effector>Magic Attack</Effector>
+			<Amount>25</Amount>
+		</Essence>
+		<Essence id="6">
+			<Name>Essence of Magic Defense</Name>
+			<Description>Coating your weapon in this liquid is said to give it mystical properties.</Description>
+			<Price>1500</Price>
+			<Type>Essence</Type>
+			<Consumable>true</Consumable>
+			<Effector>Magic Defense</Effector>
+			<Amount>25</Amount>
+		</Essence>
+		<Essence id="7">
+			<Name>Essence of Agility</Name>
+			<Description>Coating your weapon in this liquid is said to give it mystical properties.</Description>
+			<Price>1500</Price>
+			<Type>Essence</Type>
+			<Consumable>true</Consumable>
+			<Effector>Agility</Effector>
+			<Amount>25</Amount>
+		</Essence>
+		<Essence id="8">
+			<Name>Essence of Luck</Name>
+			<Description>Coating your weapon in this liquid is said to give it mystical properties.</Description>
+			<Price>1500</Price>
+			<Type>Essence</Type>
+			<Consumable>true</Consumable>
+			<Effector>Luck</Effector>
+			<Amount>25</Amount>
+		</Essence>
+	</Essences>
+</EssenceCollection>

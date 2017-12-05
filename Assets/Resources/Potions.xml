@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PotionCollection>
+	<Potions>
+		<Potion id="1">
+			<Name>Body Shard</Name>
+			<Description>A shard of stone said to have magical properites to restore a persons body.</Description>
+			<Price>50</Price>
+			<Type>Potion</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<Effector>Health</Effector>
+			<Amount>50</Amount>
+			<Duration>0</Duration>
+		</Potion>
+		<Potion id="2">
+			<Name>Body Stone</Name>
+			<Description>A stone said to have magical properites to restore a  persons body.</Description>
+			<Price>150</Price>
+			<Type>Potion</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>n:1;15</SoulIngredients>
+			<Effector>Health</Effector>
+			<Amount>250</Amount>
+			<Duration>0</Duration>
+		</Potion>
+		<Potion id="3">
+			<Name>Great Body Stone</Name>
+			<Description>One of the Greate Stones. It is said this stone has magical properites to restore a persons body.</Description>
+			<Price>250</Price>
+			<Type>Potion</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>n:2;25</SoulIngredients>
+			<Effector>Health</Effector>
+			<Amount>500</Amount>
+			<Duration>0</Duration>
+		</Potion>
+		<Potion id="4">
+			<Name>Soul Shard</Name>
+			<Description>A shard of stone said to have magical properites to restore a persons soul.</Description>
+			<Price>50</Price>
+			<Type>Potion</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<Effector>Magic</Effector>
+			<Amount>50</Amount>
+			<Duration>0</Duration>
+		</Potion>
+		<Potion id="5">
+			<Name>Soul Stone</Name>
+			<Description>A stone said to have magical properites to restore a persons soul.</Description>
+			<Price>150</Price>
+			<Type>Potion</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>n:4;15</SoulIngredients>
+			<Effector>Magic</Effector>
+			<Amount>250</Amount>
+			<Duration>0</Duration>
+		</Potion>
+		<Potion id="6">
+			<Name>Great Soul Stone</Name>
+			<Description>One of the Great Stones. It is said this stone has magical properites to restore a persons soul.</Description>
+			<Price>50</Price>
+			<Type>Potion</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>n:5;25</SoulIngredients>
+			v<Effector>Magic</Effector>
+			<Amount>500</Amount>
+			<Duration>0</Duration>
+			</Potion>
+		<Potion id="7">
+			<Name>Restore Shard</Name>
+			<Description>A shard of stone said to have magical properites to restore a persons body and soul.</Description>
+			<Price>100</Price>
+			<Type>Potion</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>n:1,n:4;15</SoulIngredients>
+			<Effector>Health/Magic</Effector>
+			<Amount>50</Amount>
+			<Duration>0</Duration>
+		</Potion>
+		<Potion id="8">
+			<Name>Restore Stone</Name>
+			<Description>A stone said to have magical properites to restore a persons body and soul.</Description>
+			<Price>250</Price>
+			<Type>Potion</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>n:2,n:5;25</SoulIngredients>
+			<Effector>Health/Magic</Effector>
+			<Amount>250</Amount>
+			<Duration>0</Duration>
+		</Potion>
+		<Potion id="9">
+			<Name>Great Restore Stone</Name>
+			<Description>One of the Greate Stones. It is said this stone has magical properites to restore a persons body and soul.</Description>
+			<Price>4050</Price>
+			<Type>Potion</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>n:3,n:6;40</SoulIngredients>
+			<Effector>Health/Magic</Effector>
+			<Amount>500</Amount>
+			<Duration>0</Duration>
+		</Potion>
+		<Potion id="10">
+			<Name>Cleansing Shard</Name>
+			<Description>A shard of stone said to have magical properites to relieve a person from poison.</Description>
+			<Price>250</Price>
+			<Type>Potion</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<Effector>Poison</Effector>
+			<Amount>0</Amount>
+			<Duration>0</Duration>
+		</Potion>
+		<Potion id="11">
+			<Name>Shard of Sight</Name>
+			<Description>A shard of stone said to have magical properites to relieve a person from blindness.</Description>
+			<Price>250</Price>
+			<Type>Potion</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<Effector>Blindness</Effector>
+			<Amount>0</Amount>
+			<Duration>0</Duration>
+		</Potion>
+		<Potion id="12">
+			<Name>Shard of Voice</Name>
+			<Description>A shard of stone said to have magical properites to relieve a person from silence.</Description>
+			<Price>250</Price>
+			<Type>Potion</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<Effector>Silence</Effector>
+			<Amount>0</Amount>
+			<Duration>0</Duration>
+		</Potion>
+		<Potion id="13">
+			<Name>Calming Shard</Name>
+			<Description>A shard of stone said to have magical properites to relieve a person from prevoke.</Description>
+			<Price>250</Price>
+			<Type>Potion</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<Effector>Prevoke</Effector>
+			<Amount>0</Amount>
+			<Duration>0</Duration>
+		</Potion>
+		<Potion id="14">
+			<Name>Shard of Knowledge</Name>
+			<Description>A shard of stone said to have magical properites to relieve a person from confusion.</Description>
+			<Price>250</Price>
+			<Type>Potion</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<Effector>Confusion</Effector>
+			<Amount>0</Amount>
+			<Duration>0</Duration>
+		</Potion>
+		<Potion id="15">
+			<Name>Shard of Hate</Name>
+			<Description>A shard of stone said to have magical properites to relieve a person from fascination.</Description>
+			<Price>250</Price>
+			<Type>Potion</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<Effector>Fascination</Effector>
+			<Amount>0</Amount>
+			<Duration>0</Duration>
+		</Potion>
+		<Potion id="16">
+			<Name>Shard of Awaking</Name>
+			<Description>A shard of stone said to have magical properites to relieve a person from sleep.</Description>
+			<Price>250</Price>
+			<Type>Potion</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<Effector>Sleep</Effector>
+			<Amount>0</Amount>
+			<Duration>0</Duration>
+		</Potion>
+		<Potion id="17">
+			<Name>Dispel Stone</Name>
+			<Description>A stone said to have magical properites to relieve a person from all ailments.</Description>
+			<Price>250</Price>
+			<Type>Potion</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>n:10,n:11,n:12,n:13,n:14,n:15,n:16;20</SoulIngredients>
+			<Effector>Ailments</Effector>
+			<Amount>0</Amount>
+			<Duration>0</Duration>
+		</Potion>
+		<Potion id="18">
+			<Name>Shard of the Body</Name>
+			<Description>A shard of stone said to have magical properites to increase your health.</Description>
+			<Price>750</Price>
+			<Type>Potion</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<Effector>Health</Effector>
+			<Amount>100</Amount>
+			<Duration>0</Duration>
+		</Potion>
+		<Potion id="19">
+			<Name>Shard of the Soul</Name>
+			<Description>A shard of stone said to have magical properites to increase your magic.</Description>
+			<Price>750</Price>
+			<Type>Potion</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<Effector>Magic</Effector>
+			<Amount>100</Amount>
+			<Duration>0</Duration>
+		</Potion>
+		<Potion id="20">
+			<Name>Shard of Power</Name>
+			<Description>A shard of stone said to have magical properites to increase your attack.</Description>
+			<Price>750</Price>
+			<Type>Potion</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<Effector>Attack</Effector>
+			<Amount>5</Amount>
+			<Duration>0</Duration>
+		</Potion>
+		<Potion id="21">
+			<Name>Shard of Defense</Name>
+			<Description>A shard of stone said to have magical properites to increase your defense.</Description>
+			<Price>750</Price>
+			<Type>Potion</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<Effector>Defense</Effector>
+			<Amount>5</Amount>
+			<Duration>0</Duration>
+		</Potion>
+		<Potion id="22">
+			<Name>Shard of Magic Power</Name>
+			<Description>A shard of stone said to have magical properites to increase your magic attack.</Description>
+			<Price>750</Price>
+			<Type>Potion</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<Effector>Magic Power</Effector>
+			<Amount>5</Amount>
+			<Duration>0</Duration>
+		</Potion>
+		<Potion id="23">
+			<Name>Shard of Magic Defense</Name>
+			<Description>A shard of stone said to have magical properites to increase your magic defense.</Description>
+			<Price>750</Price>
+			<Type>Potion</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<Effector>Magic Defense</Effector>
+			<Amount>5</Amount>
+			<Duration>0</Duration>
+		</Potion>
+		<Potion id="24">
+			<Name>Shard of Agility</Name>
+			<Description>A shard of stone said to have magical properites to increase your agility.</Description>
+			<Price>750</Price>
+			<Type>Potion</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<Effector>Agility</Effector>
+			<Amount>5</Amount>
+			<Duration>0</Duration>
+		</Potion>
+		<Potion id="25">
+			<Name>Shard of Luck</Name>
+			<Description>A shard of stone said to have magical properites to increase your luck.</Description>
+			<Price>750</Price>
+			<Type>Potion</Type>
+			<Consumable>true</Consumable>
+			<SoulIngredients>null</SoulIngredients>
+			<Effector>Luck</Effector>
+			<Amount>5</Amount>
+			<Duration>0</Duration>
+			</Potion>
+	</Potions>
+</PotionCollection>
