@@ -1,1745 +1,3939 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ArmorCollection>
+<ArmorDatabase>
 	<Armors>
-		<Armor id="1">
-			<Name>Straw Hat</Name>
-			<Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+		<Armor id="0">
+			<Name>Rugged Clothes</Name>
+			<Description>Torn and tattered, this outfit won't really give you much protection.</Description>
 			<Price>250</Price>
-			<Type>Armor</Type>
-			<ArmorType>General</ArmorType>
-			<EquipType>Head</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>5</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>2</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>//Head [General]
-		<Armor id="2">
-			<Name>Helmet</Name>
-			<Description>A leather helmet, made to give your head a bit of protection.</Description>
-			<Price>350</Price>
-			<Type>Armor</Type>
-			<ArmorType>General</ArmorType>
-			<EquipType>Head</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>8</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>4</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="3">
-			<Name>Bronze Helmet</Name>
-			<Description>A helemt made out of Bronze. Provides some protection from enemies.</Description>
-			<Price>450</Price>
-			<Type>Armor</Type>
-			<ArmorType>General</ArmorType>
-			<EquipType>Head</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>15</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>7</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="4">
-			<Name>Death's Helmet</Name>
-			<Description>It was said that the first Gurdian of Death use to be a warrior. This helmet is rumored to be theres.</Description>
-			<Price>2500</Price>
-			<Type>Armor</Type>
-			<ArmorType>General</ArmorType>
-			<EquipType>Head</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>5</Attack>
-			<Defense>130</Defense>Defense>
-			<MagicAttack>5</MagicAttack>
-			<MagicDefense>65</MagicDefense>
-			<Agility>5</Agility>
-			<Luck>5</Luck>
-			<Body>100</Body>
-			<Soul>100</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="5">
-			<Name>Guardian's Helmet</Name>
-			<Description>A helmet acquired after becoming a full fledged Guardian.</Description>
-			<Price>3500</Price>
-			<Type>Armor</Type>
-			<ArmorType>General</ArmorType>
-			<EquipType>Head</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>10</Attack>
-			<Defense>145</Defense>Defense>
-			<MagicAttack>10</MagicAttack>
-			<MagicDefense>72</MagicDefense>
-			<Agility>10</Agility>
-			<Luck>10</Luck>
-			<Body>200</Body>
-			<Soul>200</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="6">
-			<Name>Raggedy Clothes</Name>
-			<Description>Torn and tattered this outfit won't really give you much protection.</Description>
-			<Price>250</Price>
-			<Type>Armor</Type>
-			<ArmorType>General</ArmorType>
-			<EquipType>Body</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
+      <Category>General</Category>
+      <Type>Body</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
 			<Defense>10</Defense>
 			<MagicAttack>0</MagicAttack>
-			<MagicDefense>5</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>3</SoulSlots>
-		</Armor>//Body [General]
-		<Armor id="7">
-			<Name>Bronze Armor</Name>
-			<Description>Armor made out of Bronze. Provides some protection from enemies.</Description>
-			<Price>450</Price>
-			<Type>Armor</Type>
-			<ArmorType>General</ArmorType>
-			<EquipType>Body</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>42</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>21</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>3</SoulSlots>
-		</Armor>
-		<Armor id="8">
-			<Name>Chainmail</Name>
-			<Description>Armor of choice for most travelers, it provides an okay amount of protection, as well as being light weight.</Description>
-			<Price>350</Price>
-			<Type>Armor</Type>
-			<ArmorType>General</ArmorType>
-			<EquipType>Body</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>25</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>13</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>3</SoulSlots>
-		</Armor>
-		<Armor id="9">
-			<Name>Death's Armor</Name>
-			<Description>It was said that the first Gurdian of Death use to be a warrior. This armor set is rumored to be theres.</Description>
-			<Price>2500</Price>
-			<Type>Armor</Type>
-			<ArmorType>General</ArmorType>
-			<EquipType>Body</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>5</Attack>
-			<Defense>130</Defense>Defense>
-			<MagicAttack>5</MagicAttack>
-			<MagicDefense>65</MagicDefense>
-			<Agility>5</Agility>
-			<Luck>5</Luck>
-			<Body>100</Body>
-			<Soul>100</Soul>
-			<SoulSlots>3</SoulSlots>
-		</Armor>
-		<Armor id="10">
-			<Name>Guardian's Armor</Name>
-			<Description>A armor set acquired after becoming a full fledged Guardian.</Description>
-			<Price>3500</Price>
-			<Type>Armor</Type>
-			<ArmorType>General</ArmorType>
-			<EquipType>Body</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>10</Attack>
-			<Defense>145</Defense>Defense>
-			<MagicAttack>10</MagicAttack>
-			<MagicDefense>72</MagicDefense>
-			<Agility>10</Agility>
-			<Luck>10</Luck>
-			<Body>200</Body>
-			<Soul>200</Soul>
-			<SoulSlots>3</SoulSlots>
-		</Armor>
-		<Armor id="11">
-			<Name>Sandels</Name>
-			<Description>Just a basic leather sole with a strap. Great for a newtraveler.</Description>
-			<Price>250</Price>
-			<Type>Armor</Type>
-			<ArmorType>General</ArmorType>
-			<EquipType>Body</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>8</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>4</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>//Shoes [General]
-		<Armor id="12">
-			<Name>Boots</Name>
-			<Description>A bit of an upgrade from sandels these leather boots will provide more protection.</Description>
-			<Price>350</Price>
-			<Type>Armor</Type>
-			<ArmorType>General</ArmorType>
-			<EquipType>Shoes</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>12</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>6</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="13">
-			<Name>Bronze Boots</Name>
-			<Description>Boots made out of Bronze. Provides some protection from enemies.</Description>
-			<Price>450</Price>
-			<Type>Armor</Type>
-			<ArmorType>General</ArmorType>
-			<EquipType>Shoes</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>25</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>13</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="14">
-			<Name>Death's Shoes</Name>
-			<Description>It was said that the first Gurdian of Death use to be a warrior. These boots are rumored to be theres.</Description>
-			<Price>2500</Price>
-			<Type>Armor</Type>
-			<ArmorType>General</ArmorType>
-			<EquipType>Shoes</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>5</Attack>
-			<Defense>100</Defense>Defense>
-			<MagicAttack>5</MagicAttack>
-			<MagicDefense>50</MagicDefense>
-			<Agility>5</Agility>
-			<Luck>5</Luck>
-			<Body>100</Body>
-			<Soul>100</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="15">
-			<Name>Guardian's Shoes</Name>
-			<Description>Boots acquired after becoming a full fledged Guardian.</Description>
-			<Price>3500</Price>
-			<Type>Armor</Type>
-			<ArmorType>General</ArmorType>
-			<EquipType>Shoes</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>10</Attack>
-			<Defense>115</Defense>Defense>
-			<MagicAttack>10</MagicAttack>
-			<MagicDefense>57</MagicDefense>
-			<Agility>10</Agility>
-			<Luck>10</Luck>
-			<Body>200</Body>
-			<Soul>200</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="16">
-			<Name>Earring</Name>
-			<Description>A single earring, most people have on just to look cool.</Description>
-			<Price>250</Price>
-			<Type>Armor</Type>
-			<ArmorType>Accessory</ArmorType>
-			<EquipType>Earrings</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>3</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>1</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>//Earring [General]
-		<Armor id="17">
-			<Name>Bronze Earring</Name>
-			<Description>A bronze earring. They offer little protection.</Description>
-			<Price>350</Price>
-			<Type>Armor</Type>
-			<ArmorType>Accessory</ArmorType>
-			<EquipType>Earrings</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>5</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>3</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="18">
-			<Name>Jade Earrings</Name>
-			<Description>A jade earring. They offer little protection.</Description>
-			<Price>450</Price>
-			<Type>Armor</Type>
-			<ArmorType>Accessory</ArmorType>
-			<EquipType>Earrings</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>8</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>4</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="19">
-			<Name>Mithril Earrings</Name>
-			<Description>A mithril earring. They offer little protection.</Description>
-			<Price>550</Price>
-			<Type>Armor</Type>
-			<ArmorType>Accessory</ArmorType>
-			<EquipType>Earrings</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>12</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>6</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="20">
-			<Name>Meteorite Earrings</Name>
-			<Description>A meteorite earring. They offer little protection.</Description>
-			<Price>650</Price>
-			<Type>Armor</Type>
-			<ArmorType>Accessory</ArmorType>
-			<EquipType>Earrings</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>16</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>9</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="21">
-			<Name>Blood Earrings</Name>
-			<Description>A Blood earring. They offer little protection.</Description>
-			<Price>750</Price>
-			<Type>Armor</Type>
-			<ArmorType>Accessory</ArmorType>
-			<EquipType>Earrings</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>20</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>12</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>50</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="22">
-			<Name>Corrupt Earrings</Name>
-			<Description>A corrupt earring. They offer little protection, as well as they have been rumored to cause corruption</Description>
-			<Price>1000</Price>
-			<Type>Armor</Type>
-			<ArmorType>Accessory</ArmorType>
-			<EquipType>Earrings</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>3</Attack>
-			<Defense>20</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>12</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="23">
-			<Name>Death's Helmet</Name>
-			<Description>It was said that the first Gurdian of Death use to be a warrior. These earrings are rumored to be theres.</Description>
-			<Price>2500</Price>
-			<Type>Armor</Type>
-			<ArmorType>Accessory</ArmorType>
-			<EquipType>Earrings</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>5</Attack>
-			<Defense>50</Defense>Defense>
-			<MagicAttack>5</MagicAttack>
-			<MagicDefense>25</MagicDefense>
-			<Agility>5</Agility>
-			<Luck>5</Luck>
-			<Body>100</Body>
-			<Soul>100</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="24">
-			<Name>Guardian's Earrings</Name>
-			<Description>A earring acquired after becoming a full fledged Guardian.</Description>
-			<Price>3500</Price>
-			<Type>Armor</Type>
-			<ArmorType>General</ArmorType>
-			<EquipType>Head</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>10</Attack>
-			<Defense>65</Defense>Defense>
-			<MagicAttack>10</MagicAttack>
-			<MagicDefense>32</MagicDefense>
-			<Agility>10</Agility>
-			<Luck>10</Luck>
-			<Body>200</Body>
-			<Soul>200</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="25">
-			<Name>Necklace</Name>
-			<Description>An ordinary necklace. They offer little protection.</Description>
-			<Price>250</Price>
-			<Type>Armor</Type>
-			<ArmorType>Accessory</ArmorType>
-			<EquipType>Necklace</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>5</Defense>
-			<MagicAttack>0</MagicAttack>
 			<MagicDefense>2</MagicDefense>
 			<Agility>0</Agility>
 			<Luck>0</Luck>
+      <Corruption>0</Corruption>
 			<Body>0</Body>
 			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>//Necklace [General]
-		<Armor id="26">
-			<Name>Bronze Necklace</Name>
-			<Description>A bronze necklace. They offer little protection.</Description>
-			<Price>350</Price>
-			<Type>Armor</Type>
-			<ArmorType>Accessory</ArmorType>
-			<EquipType>Necklace</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>8</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>4</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="27">
-			<Name>Jade Necklace</Name>
-			<Description>A jade necklace. They offer little protection.</Description>
-			<Price>450</Price>
-			<Type>Armor</Type>
-			<ArmorType>Accessory</ArmorType>
-			<EquipType>Necklace</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>12</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>6</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="28">
-			<Name>Mithril Necklace</Name>
-			<Description>A mithril earring. They offer little protection.</Description>
-			<Price>550</Price>
-			<Type>Armor</Type>
-			<ArmorType>Accessory</ArmorType>
-			<EquipType>Necklace</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>16</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>9</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="29">
-			<Name>Meteorite Necklace</Name>
-			<Description>A blood earring. They offer little protection.</Description>
-			<Price>650</Price>
-			<Type>Armor</Type>
-			<ArmorType>Accessory</ArmorType>
-			<EquipType>Necklace</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>20</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>12</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="30">
-			<Name>Blood Necklace</Name>
-			<Description>A blood necklace. They offer little protection.</Description>
-			<Price>750</Price>
-			<Type>Armor</Type>
-			<ArmorType>Accessory</ArmorType>
-			<EquipType>Necklace</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>23</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>16</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>75</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="31">
-			<Name>Corrupt Necklace</Name>
-			<Description>A corrupt necklace. They offer little protection, as well as they have been rumored to cause corruption.</Description>
-			<Price>1000</Price>
-			<Type>Armor</Type>
-			<ArmorType>Accessory</ArmorType>
-			<EquipType>Necklace</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>5</Attack>
-			<Defense>25</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>20</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="32">
-			<Name>Death's Necklace</Name>
-			<Description>It was said that the first Gurdian of Death use to be a warrior. This necklace is rumored to be theres.</Description>
-			<Price>2500</Price>
-			<Type>Armor</Type>
-			<ArmorType>Accessory</ArmorType>
-			<EquipType>Necklace</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>5</Attack>
-			<Defense>75</Defense>Defense>
-			<MagicAttack>5</MagicAttack>
-			<MagicDefense>37</MagicDefense>
-			<Agility>5</Agility>
-			<Luck>5</Luck>
-			<Body>100</Body>
-			<Soul>100</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="33">
-			<Name>Guardian's Necklace</Name>
-			<Description>A necklace acquired after becoming a full fledged Guardian.</Description>
-			<Price>3500</Price>
-			<Type>Armor</Type>
-			<ArmorType>General</ArmorType>
-			<EquipType>Head</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>10</Attack>
-			<Defense>90</Defense>Defense>
-			<MagicAttack>10</MagicAttack>
-			<MagicDefense>45</MagicDefense>
-			<Agility>10</Agility>
-			<Luck>10</Luck>
-			<Body>200</Body>
-			<Soul>200</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="34">
-			<Name>Ring</Name>
-			<Description>A ordinary ring. They offer little protection.</Description>
-			<Price>250</Price>
-			<Type>Armor</Type>
-			<ArmorType>Accessory</ArmorType>
-			<EquipType>Necklace</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>7</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>4</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>//Ring [General]
-		<Armor id="35">
-			<Name>Bronze Ring</Name>
-			<Description>A bronze ring. They offer little protection.</Description>
-			<Price>350</Price>
-			<Type>Armor</Type>
-			<ArmorType>Accessory</ArmorType>
-			<EquipType>Ring</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>11</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>6</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="36">
-			<Name>Jade Ring</Name>
-			<Description>A jade ring. They offer little protection.</Description>
-			<Price>450</Price>
-			<Type>Armor</Type>
-			<ArmorType>Accessory</ArmorType>
-			<EquipType>Necklace</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>15</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>8</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="37">
-			<Name>Mithril Ring</Name>
-			<Description>A mithril ring. They offer little protection.</Description>
-			<Price>550</Price>
-			<Type>Armor</Type>
-			<ArmorType>Accessory</ArmorType>
-			<EquipType>Necklace</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>18</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>9</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="38">
-			<Name>Meteorite Ring</Name>
-			<Description>A meteorite ring. They offer little protection.</Description>
-			<Price>650</Price>
-			<Type>Armor</Type>
-			<ArmorType>Accessory</ArmorType>
-			<EquipType>Necklace</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>20</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>12</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="39">
-			<Name>Blood Ring</Name>
-			<Description>A blood ring. They offer little protection.</Description>
-			<Price>750</Price>
-			<Type>Armor</Type>
-			<ArmorType>Accessory</ArmorType>
-			<EquipType>Necklace</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>22</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>14</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>50</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="40">
-			<Name>Corrupt Ring</Name>
-			<Description>A corrupt ring. They offer little protection, as well as they have been rumored to cause corruption.</Description>
-			<Price>1000</Price>
-			<Type>Armor</Type>
-			<ArmorType>Accessory</ArmorType>
-			<EquipType>Necklace</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>5</Attack>
-			<Defense>22</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>14</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="41">
-			<Name>Death's Ring</Name>
-			<Description>It was said that the first Gurdian of Death use to be a warrior. This helmet is rumored to be theres.</Description>
-			<Price>2500</Price>
-			<Type>Armor</Type>
-			<ArmorType>Accessory</ArmorType>
-			<EquipType>Ring</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>5</Attack>
-			<Defense>50</Defense>Defense>
-			<MagicAttack>5</MagicAttack>
-			<MagicDefense>25</MagicDefense>
-			<Agility>5</Agility>
-			<Luck>5</Luck>
-			<Body>100</Body>
-			<Soul>100</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="42">
-			<Name>Guardian's Ring</Name>
-			<Description>A ring acquired after becoming a full fledged Guardian.</Description>
-			<Price>3500</Price>
-			<Type>Armor</Type>
-			<ArmorType>General</ArmorType>
-			<EquipType>Head</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>10</Attack>
-			<Defense>65</Defense>Defense>
-			<MagicAttack>10</MagicAttack>
-			<MagicDefense>32</MagicDefense>
-			<Agility>10</Agility>
-			<Luck>10</Luck>
-			<Body>200</Body>
-			<Soul>200</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="43">
-			<Name>Wizard Hat</Name>
-			<Description>This is a hat worn by wizards, it symbolizes they have choosen to study magic.</Description>
-			<Price>600</Price>
-			<Type>Armor</Type>
-			<ArmorType>Magic</ArmorType>
-			<EquipType>Head</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>13</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>25</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>//Head [Magic]
-		<Armor id="44">
-			<Name>Magician's Top Hat</Name>
-			<Description>An iconic Hat, which symbolizes a magic users growth in the study of magic.</Description>
-			<Price>800</Price>
-			<Type>Armor</Type>
-			<ArmorType>Magic</ArmorType>
-			<EquipType>Head</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>29</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>58</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="45">
-			<Name>Elven Mask</Name>
-			<Description>A helmet created by the elves. They are said to be one of the most magically connected racies.</Description>
-			<Price>1500</Price>
-			<Type>Armor</Type>
-			<ArmorType>Magic</ArmorType>
-			<EquipType>Head</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>21</Defense>
-			<MagicAttack>5</MagicAttack>
-			<MagicDefense>42</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>100</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="46">
-			<Name>Robe</Name>
-			<Description>Armor worn by wizards, it symbolizes they've choosen to study magic. Doesn't provide much protection.</Description>
-			<Price>800</Price>
-			<Type>Armor</Type>
-			<ArmorType>Magic</ArmorType>
-			<EquipType>Body</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>24</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>47</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>3</SoulSlots>
-		</Armor>//Body [Magic]
-		<Armor id="47">
-			<Name>Magician's Suit</Name>
-			<Description>A black tie suit, most magicians wear one, no one really understands why though.</Description>
-			<Price>1000</Price>
-			<Type>Armor</Type>
-			<ArmorType>Magic</ArmorType>
-			<EquipType>Body</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>42</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>85</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>3</SoulSlots>
-		</Armor>
-		<Armor id="48">
-			<Name>Elven Robe</Name>
-			<Description>A robe created by the elves. They are said to be one of the most magically connected racies.</Description>
-			<Price>1500</Price>
-			<Type>Armor</Type>
-			<ArmorType>Magic</ArmorType>
-			<EquipType>Body</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>42</Defense>
-			<MagicAttack>5</MagicAttack>
-			<MagicDefense>85</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>100</Soul>
-			<SoulSlots>3</SoulSlots>
-		</Armor>
-		<Armor id="49">
-			<Name>Wizard Shoes</Name>
-			<Description>Shoes worn by wizards, it symbolizes theyve choosen to study magic. Doesn't provide much protection.</Description>
-			<Price>600</Price>
-			<Type>Armor</Type>
-			<ArmorType>Magic</ArmorType>
-			<EquipType>Shoes</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>16</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>32</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>//Shoes [Magic]
-		<Armor id="50">
-			<Name>Dress Shoes</Name>
-			<Description>Black dress shoes, these are also a common choice for most magicians.</Description>
-			<Price>800</Price>
-			<Type>Armor</Type>
-			<ArmorType>Magic</ArmorType>
-			<EquipType>Shoes</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>34</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>67</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="51">
-			<Name>Elven Shoes</Name>
-			<Description>Shoes created by the elves. They are said to be one of the most magically connected racies.</Description>
-			<Price>1500</Price>
-			<Type>Armor</Type>
-			<ArmorType>Magic</ArmorType>
-			<EquipType>Head</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>31</Defense>
-			<MagicAttack>5</MagicAttack>
-			<MagicDefense>63</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>100</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="52">
-			<Name>Magic Earrings</Name>
-			<Description>Earrings, said to provide some type of magical enhancement.</Description>
-			<Price>800</Price>
-			<Type>Armor</Type>
-			<ArmorType>Accessory</ArmorType>
-			<EquipType>Earrings</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>14</Defense>
-			<MagicAttack>2</MagicAttack>
-			<MagicDefense>28</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>//Earrings [Magic]
-		<Armor id="53">
-			<Name>Elven Earrings</Name>
-			<Description>Earrings created by the elves. They are said to be one of the most magically connected racies.</Description>
-			<Price>1500</Price>
-			<Type>Armor</Type>
-			<ArmorType>Magic</ArmorType>
-			<EquipType>Head</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>22</Defense>
-			<MagicAttack>5</MagicAttack>
-			<MagicDefense>45</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>100</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="54">
-			<Name>Element Necklace</Name>
-			<Description>A necklace said to help bring its user closer to the elements of the world.</Description>
-			<Price>800</Price>
-			<Type>Armor</Type>
-			<ArmorType>Accessory</ArmorType>
-			<EquipType>Necklace</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>13</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>26</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>//Necklace [Magic]
-		<Armor id="55">
-			<Name>Elven Necklace</Name>
-			<Description>A necklace created by the elves. They are said to be one of the most magically connected racies.</Description>
-			<Price>1500</Price>
-			<Type>Armor</Type>
-			<ArmorType>Accessory</ArmorType>
-			<EquipType>Necklace</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>19</Defense>
-			<MagicAttack>5</MagicAttack>
-			<MagicDefense>39</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>100</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="56">
-			<Name>Soul Ring</Name>
-			<Description>A ring said to increase its users Soul as well as their magical power</Description>
-			<Price>800</Price>
-			<Type>Armor</Type>
-			<ArmorType>Accessory</ArmorType>
-			<EquipType>Ring</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>9</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>18</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>100</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>//Ring [Magic]
-		<Armor id="57">
-			<Name>Elven Ring</Name>
-			<Description>A ring created by the elves. They are said to be one of the most magically connected racies.</Description>
-			<Price>1500</Price>
-			<Type>Armor</Type>
-			<ArmorType>Accessory</ArmorType>
-			<EquipType>Ring</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>11</Defense>
-			<MagicAttack>5</MagicAttack>
-			<MagicDefense>22</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>100</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="58">
-			<Name>Cap</Name>
-			<Description>A leather and bronze cap, said to be a light weight alternative way to protect the skull.</Description>
-			<Price>600</Price>
-			<Type>Armor</Type>
-			<ArmorType>Light</ArmorType>
-			<EquipType>Haed</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>12</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>6</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>//Head [Light]
-		<Armor id="59">
-			<Name>Jade Cap</Name>
-			<Description>A leather and jade cap, said to be a light weight alternative way to protect the skull.</Description>
-			<Price>800</Price>
-			<Type>Armor</Type>
-			<ArmorType>Light</ArmorType>
-			<EquipType>Haed</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>39</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>20</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="60">
-			<Name>Dragon Cap</Name>
-			<Description>A cap said to be created by the Naga race. Also claimed to be the lightest material in existance.</Description>
-			<Price>1500</Price>
-			<Type>Armor</Type>
-			<ArmorType>Light</ArmorType>
-			<EquipType>Haed</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>5</Attack>
-			<Defense>42</Defense>Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>21</MagicDefense>
-			<Agility>25</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="61">
-			<Name>Bronze Chainmail</Name>
-			<Description>Usually worn under armo. Although on its own it can be a leight weight alternative.</Description>
-			<Price>800</Price>
-			<Type>Armor</Type>
-			<ArmorType>Light</ArmorType>
-			<EquipType>Body</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>52</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>26</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>//Body [Light]
-		<Armor id="62">
-			<Name>Jade Chainmail</Name>
-			<Description>Usually worn under armor. Although on its own it can be a light weight alternative.</Description>
-			<Price>1000</Price>
-			<Type>Armor</Type>
-			<ArmorType>Light</ArmorType>
-			<EquipType>Body</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>76</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>38</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="63">
-			<Name>Dragon Chainmail</Name>
-			<Description>Chainmail armor said to be created by the Naga race. Also claimed to be the lightest material in existance.</Description>
-			<Price>1500</Price>
-			<Type>Armor</Type>
-			<ArmorType>Light</ArmorType>
-			<EquipType>Haed</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>5</Attack>
-			<Defense>85</Defense>Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>42</MagicDefense>
-			<Agility>25</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>3</SoulSlots>
-		</Armor>
-		<Armor id="64">
-			<Name>Shoes</Name>
-			<Description>Provide a lot more protection than sandels, but are lighter than boots.</Description>
-			<Price>600</Price>
-			<Type>Armor</Type>
-			<ArmorType>Light</ArmorType>
-			<EquipType>Shoes</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>27</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>13</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>//Shoes [Light]
-		<Armor id="65">
-			<Name>Light Shoes</Name>
-			<Description>These shoes were created to be as light as possible. Giving their user a lot of movement.</Description>
-			<Price>800</Price>
-			<Type>Armor</Type>
-			<ArmorType>Light</ArmorType>
-			<EquipType>Shoes</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>66</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>33</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="66">
-			<Name>Dragon Boots</Name>
-			<Description>Boots said to be created by the Naga race. Also claimed to be the lightest material in existance.</Description>
-			<Price>1500</Price>
-			<Type>Armor</Type>
-			<ArmorType>Light</ArmorType>
-			<EquipType>Haed</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>5</Attack>
-			<Defense>63</Defense>Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>31</MagicDefense>
-			<Agility>25</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="67">
-			<Name>Golden Earring</Name>
-			<Description>Special errings rumored to be made of gold, though it may be untrue.</Description>
-			<Price>800</Price>
-			<Type>Armor</Type>
-			<ArmorType>Accessory</ArmorType>
-			<EquipType>Earrings</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>16</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>8</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>//Earring [Light]
-		<Armor id="68">
-			<Name>Dragon Earring</Name>
-			<Description>Earrings said created by the Naga race. Also claimed to be the lightest material in existance.</Description>
-			<Price>1500</Price>
-			<Type>Armor</Type>
-			<ArmorType>Accessory</ArmorType>
-			<EquipType>Earrings</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>5</Attack>
-			<Defense>45</Defense>Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>22</MagicDefense>
-			<Agility>25</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="69">
-			<Name>Golden Chain</Name>
-			<Description>A special necklace rumored to be made of gold, though it may be untrue.</Description>
-			<Price>800</Price>
-			<Type>Armor</Type>
-			<ArmorType>Accessory</ArmorType>
-			<EquipType>Necklace</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>28</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>14</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>//Necklace [Light]
-		<Armor id="70">
-			<Name>Dragon Necklace</Name>
-			<Description>A necklace said created by the Naga race. Also claimed to be the lightest material in existance.</Description>
-			<Price>1500</Price>
-			<Type>Armor</Type>
-			<ArmorType>Light</ArmorType>
-			<EquipType>Haed</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>5</Attack>
-			<Defense>39</Defense>Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>20</MagicDefense>
-			<Agility>25</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="71">
-			<Name>Ring of Swiftness</Name>
-			<Description>A ring said to provide its user with an extra boost of speed.</Description>
-			<Price>800</Price>
-			<Type>Armor</Type>
-			<ArmorType>Accessory</ArmorType>
-			<EquipType>Ring</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>12</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>6</MagicDefense>
-			<Agility>2</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>//Ring [Light]
-		<Armor id="72">
-			<Name>Dragon Ring</Name>
-			<Description>A ring said created by the Naga race. Also claimed to be the lightest material in existance.</Description>
-			<Price>1500</Price>
-			<Type>Armor</Type>
-			<ArmorType>Light</ArmorType>
-			<EquipType>Haed</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>5</Attack>
-			<Defense>22</Defense>Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>11</MagicDefense>
-			<Agility>30</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="73">
-			<Name>Jade Helmet</Name>
-			<Description>A helmet forged from iron, provides a lot of protection compared to other headgear.</Description>
-			<Price>600</Price>
-			<Type>Armor</Type>
-			<ArmorType>Heavy</ArmorType>
-			<EquipType>Haed</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>73</Defense>Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>36</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>//Head [Heavy]
-		<Armor id="74">
-			<Name>Mithril Helmet</Name>
-			<Description>A helmet forged from mithril, provides a lot of protection compared to other headgear.</Description>
-			<Price>800</Price>
-			<Type>Armor</Type>
-			<ArmorType>Heavy</ArmorType>
-			<EquipType>Haed</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>91</Defense>Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>46</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="75">
-			<Name>King's Helmet</Name>
-			<Description>The helmet rumored to be owned and worn by the late King Ruko. Only the greatest of Knights may dawn it.</Description>
-			<Price>1500</Price>
-			<Type>Armor</Type>
-			<ArmorType>Heavy</ArmorType>
-			<EquipType>Haed</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>5</Attack>
-			<Defense>105</Defense>Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>53</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>100</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="76">
-			<Name>Jade Armor</Name>
-			<Description>Armor forged from iron, provides a lot of protection compared to other armors.</Description>
-			<Price>800</Price>
-			<Type>Armor</Type>
-			<ArmorType>Light</ArmorType>
-			<EquipType>Body</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>101</Defense>Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>50</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>3</SoulSlots>
-		</Armor>//Body [Heavy]
-		<Armor id="77">
-			<Name>Mithril Armor</Name>
-			<Description>Armor forged from mithril, provides a lot of protection compared to other armors.</Description>
-			<Price>1000</Price>
-			<Type>Armor</Type>
-			<ArmorType>Light</ArmorType>
-			<EquipType>Body</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>111</Defense>Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>55</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>3</SoulSlots>
-		</Armor>
-		<Armor id="78">
-			<Name>King's Armor</Name>
-			<Description>Armor rumored to be owned and worn by the late King Ruko. Only the greatest of Knights may dawn it.</Description>
-			<Price>1500</Price>
-			<Type>Armor</Type>
-			<ArmorType>Heavy</ArmorType>
-			<EquipType>Haed</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>5</Attack>
-			<Defense>129</Defense>Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>69</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>100</Body>
-			<Soul>0</Soul>
-			<SoulSlots>3</SoulSlots>
-		</Armor>
-		<Armor id="79">
-			<Name>Jade Boots</Name>
-			<Description>Boots forged from iron, provides a lot of protection compared to other footwear.</Description>
-			<Price>1000</Price>
-			<Type>Armor</Type>
-			<ArmorType>Light</ArmorType>
-			<EquipType>Body</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>67</Defense>Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>33</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>3</SoulSlots>
-		</Armor>//Shoes [Heavy]
-		<Armor id="80">
-			<Name>Mithril Boots</Name>
-			<Description>Boots forged from mithril, provides a lot of protection compared to other footwear.</Description>
-			<Price>1000</Price>
-			<Type>Armor</Type>
-			<ArmorType>Light</ArmorType>
-			<EquipType>Body</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>78</Defense>Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>38</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>3</SoulSlots>
-		</Armor>
-		<Armor id="81">
-			<Name>King's Boots</Name>
-			<Description>Boots rumored to be owned and worn by the late King Ruko. Only the greatest of Knights may dawn it.</Description>
-			<Price>1500</Price>
-			<Type>Armor</Type>
-			<ArmorType>Heavy</ArmorType>
-			<EquipType>Haed</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>5</Attack>
-			<Defense>89</Defense>Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>45</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>100</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="82">
-			<Name>Holy Chain</Name>
-			<Description>A chain said to be passed down from the greatest of all Holy Knights to the next.</Description>
-			<Price>1000</Price>
-			<Type>Armor</Type>
-			<ArmorType>Accessory</ArmorType>
-			<EquipType>Necklace</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>45</Defense>Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>24</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>//Necklace [Heavy]
-		<Armor id="83">
-			<Name>Holy Chain</Name>
-			<Description>A Necklae rumored to be owned and worn by the late King Ruko. Only the greatest of Knights may wear it.</Description>
-			<Price>1500</Price>
-			<Type>Armor</Type>
-			<ArmorType>Accessory</ArmorType>
-			<EquipType>Necklace</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>5</Attack>
-			<Defense>45</Defense>Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>23</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>100</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="84">
-			<Name>Knight's Earring</Name>
-			<Description>These earrings are said to be the representation of a warrior knights status.</Description>
-			<Price>800</Price>
-			<Type>Armor</Type>
-			<ArmorType>Accessory</ArmorType>
-			<EquipType>Earrings</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>26</Defense>Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>13</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>//Earring [Heavy]
-		<Armor id="85">
-			<Name>King's Earring</Name>
-			<Description>Earrings rumored to be owned and worn by the late King Ruko. Only the greatest of Knights may wear it.</Description>
-			<Price>1500</Price>
-			<Type>Armor</Type>
-			<ArmorType>Accessory</ArmorType>
-			<EquipType>Earrings</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>5</Attack>
-			<Defense>37</Defense>Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>19</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>100</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
-		<Armor id="86">
-			<Name>Ring of Defense</Name>
-			<Description>With this rings magical properties you can increase your defensive strengths.</Description>
-			<Price>800</Price>
-			<Type>Armor</Type>
-			<ArmorType>Accessory</ArmorType>
-			<EquipType>Ring</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>68</Defense>Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>34</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>0</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>//Ring [Heavy]
-		<Armor id="87">
-			<Name>Holy Chain</Name>
-			<Description>A chain said to be passed down from the greatest of all Holy Knights to the next.</Description>
-			<Price>1500</Price>
-			<Type>Armor</Type>
-			<ArmorType>Accessory</ArmorType>
-			<EquipType>Ring</EquipType>
-			<Consumable>false</Consumable>
-			<SoulIngredients>i:23,i:28;10,1</SoulIngredients>
-			<LevelReq>0</LevelReq>
-			<Attack>5</Attack>
-			<Defense>31</Defense>Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>16</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<Body>100</Body>
-			<Soul>0</Soul>
-			<SoulSlots>1</SoulSlots>
-		</Armor>
+			<SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>30</IngredientsID>
+        <IngredientsID>100</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount>1</IngredientsAmount>
+        <IngredientsAmount>10</IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID>I</IngredientsDataID>
+        <IngredientsDataID>I</IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="1">
+      <Name>Chainmail</Name>
+      <Description>Armor of choice for most travelers. It provides some amount of protection, as well as being light weight.</Description>
+      <Price>350</Price>
+      <Category>General</Category>
+      <Type>Body</Type>
+      <LevelReq>30</LevelReq>
+      <Attack>0</Attack>
+      <Defense>25</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>13</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>33</IngredientsID>
+        <IngredientsID>100</IngredientsID>
+        <IngredientsID>26</IngredientsID>
+        <IngredientsID>27</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount>1</IngredientsAmount>
+        <IngredientsAmount>10</IngredientsAmount>
+        <IngredientsAmount>5</IngredientsAmount>
+        <IngredientsAmount>5</IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID>I</IngredientsDataID>
+        <IngredientsDataID>I</IngredientsDataID>
+        <IngredientsDataID>Es</IngredientsDataID>
+        <IngredientsDataID>Es</IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="2">
+      <Name>Bronze Armor</Name>
+      <Description>Armor made out of bronze. Provides some protection from enemies.</Description>
+      <Price>450</Price>
+      <Category>General</Category>
+      <Type>Body</Type>
+      <LevelReq>60</LevelReq>
+      <Attack>0</Attack>
+      <Defense>42</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>21</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>33</IngredientsID>
+        <IngredientsID>100</IngredientsID>
+        <IngredientsID>26</IngredientsID>
+        <IngredientsID>27</IngredientsID>
+        <IngredientsID>70</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount>1</IngredientsAmount>
+        <IngredientsAmount>10</IngredientsAmount>
+        <IngredientsAmount>1</IngredientsAmount>
+        <IngredientsAmount>1</IngredientsAmount>
+        <IngredientsAmount>5</IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID>I</IngredientsDataID>
+        <IngredientsDataID>I</IngredientsDataID>
+        <IngredientsDataID>Es</IngredientsDataID>
+        <IngredientsDataID>Es</IngredientsDataID>
+        <IngredientsDataID>Es</IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="3">
+      <Name>Astro Armor</Name>
+      <Description>The minerals mixed together to create this armor set are said to give it an out of this world look.</Description>
+      <Price>750</Price>
+      <Category>General</Category>
+      <Type>Body</Type>
+      <LevelReq>90</LevelReq>
+      <Attack>0</Attack>
+      <Defense>67</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>34</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>33</IngredientsID>
+        <IngredientsID>100</IngredientsID>
+        <IngredientsID>26</IngredientsID>
+        <IngredientsID>27</IngredientsID>
+        <IngredientsID>72</IngredientsID>
+        <IngredientsID>73</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount>1</IngredientsAmount>
+        <IngredientsAmount>10</IngredientsAmount>
+        <IngredientsAmount>1</IngredientsAmount>
+        <IngredientsAmount>1</IngredientsAmount>
+        <IngredientsAmount>5</IngredientsAmount>
+        <IngredientsAmount>5</IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID>I</IngredientsDataID>
+        <IngredientsDataID>I</IngredientsDataID>
+        <IngredientsDataID>Es</IngredientsDataID>
+        <IngredientsDataID>Es</IngredientsDataID>
+        <IngredientsDataID>Es</IngredientsDataID>
+        <IngredientsDataID>Es</IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="4">
+      <Name>Devastation Armor</Name>
+      <Description>A armor set created from a mix of both Blood and Corrupt minerals, a devastating combination.</Description>
+      <Price>1500</Price>
+      <Category>General</Category>
+      <Type>Body</Type>
+      <LevelReq>120</LevelReq>
+      <Attack>0</Attack>
+      <Defense>95</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>47</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>3</Corruption>
+      <Body>50</Body>
+      <Soul>50</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>33</IngredientsID>
+        <IngredientsID>100</IngredientsID>
+        <IngredientsID>26</IngredientsID>
+        <IngredientsID>27</IngredientsID>
+        <IngredientsID>74</IngredientsID>
+        <IngredientsID>75</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount>1</IngredientsAmount>
+        <IngredientsAmount>10</IngredientsAmount>
+        <IngredientsAmount>1</IngredientsAmount>
+        <IngredientsAmount>1</IngredientsAmount>
+        <IngredientsAmount>5</IngredientsAmount>
+        <IngredientsAmount>5</IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID>I</IngredientsDataID>
+        <IngredientsDataID>I</IngredientsDataID>
+        <IngredientsDataID>Es</IngredientsDataID>
+        <IngredientsDataID>Es</IngredientsDataID>
+        <IngredientsDataID>Es</IngredientsDataID>
+        <IngredientsDataID>Es</IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="5">
+      <Name>Death's Armor</Name>
+      <Description>It was said that the first Guardian of Death once wore this armor. Bestow a great power by dawning it.</Description>
+      <Price>2500</Price>
+      <Category>General</Category>
+      <Type>Body</Type>
+      <LevelReq>150</LevelReq>
+      <Attack>5</Attack>
+      <Defense>130</Defense>
+      <MagicAttack>5</MagicAttack>
+      <MagicDefense>65</MagicDefense>
+      <Agility>5</Agility>
+      <Luck>5</Luck>
+      <Corruption>0</Corruption>
+      <Body>100</Body>
+      <Soul>100</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>33</IngredientsID>
+        <IngredientsID>100</IngredientsID>
+        <IngredientsID>26</IngredientsID>
+        <IngredientsID>27</IngredientsID>
+        <IngredientsID>46</IngredientsID>
+        <IngredientsID>76</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount>1</IngredientsAmount>
+        <IngredientsAmount>10</IngredientsAmount>
+        <IngredientsAmount>1</IngredientsAmount>
+        <IngredientsAmount>1</IngredientsAmount>
+        <IngredientsAmount>10</IngredientsAmount>
+        <IngredientsAmount>5</IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID>I</IngredientsDataID>
+        <IngredientsDataID>I</IngredientsDataID>
+        <IngredientsDataID>Es</IngredientsDataID>
+        <IngredientsDataID>Es</IngredientsDataID>
+        <IngredientsDataID>Es</IngredientsDataID>
+        <IngredientsDataID>Es</IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="6">
+      <Name>Guardian Armor</Name>
+      <Description>A armor set acquired after becoming a full fledged Guardian.</Description>
+      <Price>3500</Price>
+      <Category>General</Category>
+      <Type>Body</Type>
+      <LevelReq>180</LevelReq>
+      <Attack>10</Attack>
+      <Defense>145</Defense>
+      <MagicAttack>10</MagicAttack>
+      <MagicDefense>72</MagicDefense>
+      <Agility>10</Agility>
+      <Luck>10</Luck>
+      <Corruption>0</Corruption>
+      <Body>200</Body>
+      <Soul>200</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>33</IngredientsID>
+        <IngredientsID>100</IngredientsID>
+        <IngredientsID>26</IngredientsID>
+        <IngredientsID>27</IngredientsID>
+        <IngredientsID>46</IngredientsID>
+        <IngredientsID>76</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount>1</IngredientsAmount>
+        <IngredientsAmount>10</IngredientsAmount>
+        <IngredientsAmount>1</IngredientsAmount>
+        <IngredientsAmount>1</IngredientsAmount>
+        <IngredientsAmount>10</IngredientsAmount>
+        <IngredientsAmount>5</IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID>I</IngredientsDataID>
+        <IngredientsDataID>I</IngredientsDataID>
+        <IngredientsDataID>Es</IngredientsDataID>
+        <IngredientsDataID>Es</IngredientsDataID>
+        <IngredientsDataID>Es</IngredientsDataID>
+        <IngredientsDataID>Es</IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="7">
+      <Name>Bronze Heroic Curass</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>300</Price>
+      <Category>Heavy</Category>
+      <Type>Body</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>33</IngredientsID>
+        <IngredientsID>70</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount>1</IngredientsAmount>
+        <IngredientsAmount>25</IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID>I</IngredientsDataID>
+        <IngredientsDataID>Es</IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="8">
+      <Name>Astro Heroic Curass</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>600</Price>
+      <Category>Heavy</Category>
+      <Type>Body</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>33</IngredientsID>
+        <IngredientsID>72</IngredientsID>
+        <IngredientsID>73</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount>1</IngredientsAmount>
+        <IngredientsAmount>25</IngredientsAmount>
+        <IngredientsAmount>25</IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID>I</IngredientsDataID>
+        <IngredientsDataID>Es</IngredientsDataID>
+        <IngredientsDataID>Es</IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="9">
+      <Name>Devastation Heroic Curass</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="10">
+      <Name>King's Heroic Curass</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="11">
+      <Name>Guardian Heroic Curass</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="12">
+      <Name>Aditora</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="13">
+      <Name>Astro Aditora</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="14">
+      <Name>Devastation Aditora</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="15">
+      <Name>Dragon's Aditora</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="16">
+      <Name>Guardian Aditora</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="17">
+      <Name>Robe</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="18">
+      <Name>Magician's Suit</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="19">
+      <Name>Fae Garments</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="20">
+      <Name>Elven Garments</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="21">
+      <Name>Arch Mage Garments</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="22">
+      <Name>Earrings</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="23">
+      <Name>Bronze Earrings</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="24">
+      <Name>Jade Earrings</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="25">
+      <Name>Mithril Earrings</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="26">
+      <Name>Meteorite Earrings</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="27">
+      <Name>Blood Earrings</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="28">
+      <Name>Corrupt Earrings</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="29">
+      <Name>Death's Earrings</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="30">
+      <Name>Guardian Earrings</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="31">
+      <Name>Warrior's Earrings</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="32">
+      <Name>Knight's Earrings</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="33">
+      <Name>King's Earrings</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="34">
+      <Name>Golden Earrings</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="35">
+      <Name>Dragon's Earrings</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="36">
+      <Name>Lords Earrings</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="37">
+      <Name>Magic Earrings</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="38">
+      <Name>Elven Earrings</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="39">
+      <Name>Arch Mage Earrings</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="40">
+      <Name>Straw Hat</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="41">
+      <Name>Wooden Helmet</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="42">
+      <Name>Bronze Helmet</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="43">
+      <Name>Astro Helmet</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="44">
+      <Name>Devastation Helmet</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="45">
+      <Name>Death's Helmet</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="46">
+      <Name>Guardian Helmet</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="47">
+      <Name>Bronze Barbute</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="48">
+      <Name>Astro Barbute</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="49">
+      <Name>Devastation Barbute</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="50">
+      <Name>King's Barbute</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="51">
+      <Name>Guardian Barbute</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="52">
+      <Name>Leather Cap</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="53">
+      <Name>Astro Cap</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="54">
+      <Name>Devastation Cap</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="55">
+      <Name>Dragons Cap</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="56">
+      <Name>Guardian Cap</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="57">
+      <Name>Wizard Hat</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="58">
+      <Name>Magician's Top Hat</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="59">
+      <Name>Fae Mask</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="60">
+      <Name>Elven Mask</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="61">
+      <Name>Arch Mage Cap</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="62">
+      <Name>Necklace</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="63">
+      <Name>Bronze Necklace</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="64">
+      <Name>Jade Earrings</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="65">
+      <Name>Mithril Earrings</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="66">
+      <Name>Meteorite Earrings</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="67">
+      <Name>Blood Necklace</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="68">
+      <Name>Corrupt Necklace</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="69">
+      <Name>Death's Necklace</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="70">
+      <Name>Guardian Necklace</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="71">
+      <Name>Holy Chain</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="72">
+      <Name>Corrupt Chain</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="73">
+      <Name>King's Chain</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="74">
+      <Name>Golden Chain</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="75">
+      <Name>Dragons Chain</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="76">
+      <Name>Lords Chain</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="77">
+      <Name>Element Necklace</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="78">
+      <Name>Elven Necklace</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="79">
+      <Name>Arch Mage Necklace</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="80">
+      <Name>Ring</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="81">
+      <Name>Bronze Ring</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="82">
+      <Name>Jade Ring</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="83">
+      <Name>Mithril Ring</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="84">
+      <Name>Meteorite Ring</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="85">
+      <Name>Blood Ring</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="86">
+      <Name>Corrupt Ring</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="87">
+      <Name>Death's Ring</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="88">
+      <Name>Guardian Ring</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="89">
+      <Name>Ring of Defense</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="90">
+      <Name>Twilight Ring</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="91">
+      <Name>King's Ring</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="92">
+      <Name>Ring of Swiftness</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="93">
+      <Name>Dragons Ring</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="94">
+      <Name>Lords Ring</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="95">
+      <Name>Soul Ring</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="96">
+      <Name>Elven Ring</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="97">
+      <Name>Arch Mage Ring</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="98">
+      <Name>Sandels</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="99">
+      <Name>Shoes</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="100">
+      <Name>Bronze Shoes</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="101">
+      <Name>Astro Shoes</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="102">
+      <Name>Devastation Shoes</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="103">
+      <Name>Death's Shoes</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="104">
+      <Name>Guardian Shoes</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="105">
+      <Name>Bronze Sollerte</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="106">
+      <Name>Astro Sollerte</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="107">
+      <Name>Devastation Sollerte</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="108">
+      <Name>King's Sollerte</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="109">
+      <Name>Guardian Sollerte</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="110">
+      <Name>Light Shoes</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="111">
+      <Name>Astro Sandels</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="112">
+      <Name>Devastation Sandels</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="113">
+      <Name>Dragon Sandels</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="114">
+      <Name>Guardian Sandels</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="115">
+      <Name>Wizard Shoes</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="116">
+      <Name>Magicians Shoes</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="117">
+      <Name>Fae Magic Shoes</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="118">
+      <Name>Elven Magic Shoes</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
+    <Armor id="119">
+      <Name>Arch Mage Shoes</Name>
+      <Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+      <Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+      <Defense>5</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>2</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <Corruption>0</Corruption>
+      <Body>0</Body>
+      <Soul>0</Soul>
+      <SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Armor>
 	</Armors>
-</ArmorCollection>
+</ArmorDatabase>

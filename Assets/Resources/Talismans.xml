@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalismanDatabase>
+	<Talismans>
+		<Talisman id="1">
+			<Name>Straw Hat</Name>
+			<Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
+			<Price>250</Price>
+      <Category>General</Category>
+      <Type>Head</Type>
+      <LevelReq>0</LevelReq>
+      <Attack>0</Attack>
+			<Defense>5</Defense>
+			<MagicAttack>0</MagicAttack>
+			<MagicDefense>2</MagicDefense>
+			<Agility>0</Agility>
+			<Luck>0</Luck>
+      <Corruption>0</Corruption>
+			<Body>0</Body>
+			<Soul>0</Soul>
+			<SoulSlots>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+        <SoulSlot>0</SoulSlot>
+      </SoulSlots>
+      <Consumable>false</Consumable>
+      <IngredientsIDs>
+        <IngredientsID>0</IngredientsID>
+      </IngredientsIDs>
+      <IngredientsAmounts>
+        <IngredientsAmount></IngredientsAmount>
+      </IngredientsAmounts>
+      <IngredientsDataIDs>
+        <IngredientsDataID></IngredientsDataID>
+      </IngredientsDataIDs>
+    </Talisman>
+	</Talismans>
+</TalismanDatabase>

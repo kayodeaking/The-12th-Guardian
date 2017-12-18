@@ -1,57 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<NPCCollection>
+<NPCDatabase>
 	<NPCs>
 		<NPC id="1">
-			<Name>Priest</Name>
-			<Nickname>null</Nickname>
-			<Description>Holy man, usually in charge of the church.</Description>
-			<Type>Church</Type>
-			<Age>0</Age>
-			<Gender>1</Gender>
-			<Race>1</Race>
-			<SkinColor>1</SkinColor>
-			<HairColor>1</HairColor>
-			<SkillList>null</SkillList>
-			<Class>null</Class>
-			<Level>1</Level>
-			<Body>25</Body>
-			<Soul>0</Soul>
-			<Attack>0</Attack>
-			<Defense>0</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>0</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<DialogueFile>Priest-Dialogue</DialogueFile>
-			<Walking>true</Walking>
-			<Playermode>false</Playermode>
-			<Found>true</Found>
-		</NPC>
-		<NPC id="1">
-			<Name>Priestess</Name>
-			<Nickname>null</Nickname>
-			<Description>Holy woman, usually in charge of the church.</Description>
-			<Type>Church</Type>
-			<Age>0</Age>
-			<Gender>2</Gender>
-			<Race>1</Race>
-			<SkinColor>1</SkinColor>
-			<HairColor>1</HairColor>
-			<SkillList>null</SkillList>
-			<Class>null</Class>
-			<Level>1</Level>
-			<Body>25</Body>
-			<Soul>0</Soul>
-			<Attack>0</Attack>
-			<Defense>0</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>0</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
-			<DialogueFile>Priest-Dialogue</DialogueFile>
-			<Walking>true</Walking>
-			<Playermode>false</Playermode>
-			<Found>true</Found>
+      <Name>Slime</Name>
+      <Nickname>null</Nickname>
+      <Description>Holy man, usually in charge of the church.</Description>
+      <Type>Mystic</Type>
+      <Age>0</Age>
+      <Gender>0</Gender>
+      <Race>0</Race>
+      <SkinColor>0</SkinColor>
+      <HairColor>0</HairColor>
+      <SkillList>null</SkillList>
+      <Class>null</Class>
+      <Level>1</Level>
+      <Body>25</Body>
+      <Soul>0</Soul>
+      <Attack>8</Attack>
+      <Defense>0</Defense>
+      <MagicAttack>0</MagicAttack>
+      <MagicDefense>0</MagicDefense>
+      <Agility>0</Agility>
+      <Luck>0</Luck>
+      <DialogueFile>null</DialogueFile>
+      <Walking>true</Walking>
+      <Playermode>false</Playermode>
+      <ItemDropList>p:1,4;i:40,45,50;w:1;a:1,6,11</ItemDropList>
+      <Found>true</Found>
 		</NPC>
 	</NPCs>
-</NPCCollection>
+</NPCDatabase>
