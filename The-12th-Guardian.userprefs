@@ -1,9 +1,23 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Resources/Armors.xml">
     <Files>
-      <File FileName="Assets/Resources/Armors.xml" Line="1" Column="1" />
+      <File FileName="Assets/Resources/Databases/Enemy/Enemy.cs" Line="1" Column="1" />
+      <File FileName="Assets/Resources/Armors.xml" Line="1030" Column="3" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="The-12th-Guardian" expanded="True">
+            <Node name="Assembly-CSharp" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="Armors.xml" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

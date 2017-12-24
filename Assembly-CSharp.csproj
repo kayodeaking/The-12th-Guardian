@@ -19,7 +19,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_4;UNITY_5_5;UNITY_5;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VIDEO;ENABLE_VR;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_4;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VIDEO;ENABLE_VR;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -47,22 +47,27 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\PiXel Cube World Atlantis\Scripts\TextureOffset.cs" />
-     <Compile Include="Assets\Resources\Scripts\Database\Armor.cs" />
-     <Compile Include="Assets\Resources\Scripts\Database\Character.cs" />
-     <Compile Include="Assets\Resources\Scripts\Database\Containers\ArmorContainer.cs" />
-     <Compile Include="Assets\Resources\Scripts\Database\Containers\EnemyContainer.cs" />
-     <Compile Include="Assets\Resources\Scripts\Database\Containers\EssenceContainer.cs" />
-     <Compile Include="Assets\Resources\Scripts\Database\Containers\ItemContainer.cs" />
-     <Compile Include="Assets\Resources\Scripts\Database\Containers\NPCContainer.cs" />
-     <Compile Include="Assets\Resources\Scripts\Database\Containers\PotionContainer.cs" />
-     <Compile Include="Assets\Resources\Scripts\Database\Containers\WeaponContainer.cs" />
-     <Compile Include="Assets\Resources\Scripts\Database\DatabaseLoader.cs" />
-     <Compile Include="Assets\Resources\Scripts\Database\Enemy.cs" />
-     <Compile Include="Assets\Resources\Scripts\Database\Essence.cs" />
-     <Compile Include="Assets\Resources\Scripts\Database\Item.cs" />
-     <Compile Include="Assets\Resources\Scripts\Database\NPC.cs" />
-     <Compile Include="Assets\Resources\Scripts\Database\Potion.cs" />
-     <Compile Include="Assets\Resources\Scripts\Database\Weapon.cs" />
+     <Compile Include="Assets\Resources\Databases\Armor\Armor.cs" />
+     <Compile Include="Assets\Resources\Databases\Armor\ArmorDatabase.cs" />
+     <Compile Include="Assets\Resources\Databases\Database.cs" />
+     <Compile Include="Assets\Resources\Databases\Enemy\Enemy.cs" />
+     <Compile Include="Assets\Resources\Databases\Enemy\EnemyDatabase.cs" />
+     <Compile Include="Assets\Resources\Databases\Essence\Essence.cs" />
+     <Compile Include="Assets\Resources\Databases\Essence\EssenceDatabase.cs" />
+     <Compile Include="Assets\Resources\Databases\Item\Item.cs" />
+     <Compile Include="Assets\Resources\Databases\Item\ItemDatabase.cs" />
+     <Compile Include="Assets\Resources\Databases\NPC\NPC.cs" />
+     <Compile Include="Assets\Resources\Databases\NPC\NPCDatabase.cs" />
+     <Compile Include="Assets\Resources\Databases\Potion\Potion.cs" />
+     <Compile Include="Assets\Resources\Databases\Potion\PotionDatabase.cs" />
+     <Compile Include="Assets\Resources\Databases\Scroll\Scroll.cs" />
+     <Compile Include="Assets\Resources\Databases\Scroll\ScrollDatabase.cs" />
+     <Compile Include="Assets\Resources\Databases\Skill\Skill.cs" />
+     <Compile Include="Assets\Resources\Databases\Skill\SkillDatabase.cs" />
+     <Compile Include="Assets\Resources\Databases\Talisman\Talisman.cs" />
+     <Compile Include="Assets\Resources\Databases\Talisman\TalismanDatabase.cs" />
+     <Compile Include="Assets\Resources\Databases\Weapon\Weapon.cs" />
+     <Compile Include="Assets\Resources\Databases\Weapon\WeaponDatabase.cs" />
      <None Include="Assets\Resources\NPCs.xml" />
      <None Include="Assets\Resources\Items.xml" />
      <None Include="Assets\PiXel Cube World Atlantis\Scripts\Script read me.txt" />
@@ -71,7 +76,10 @@
      <None Include="Assets\Resources\Potions.xml" />
      <None Include="Assets\Resources\Weapons.xml" />
      <None Include="Assets\Resources\Enemies.xml" />
+     <None Include="Assets\Resources\Talismans.xml" />
+     <None Include="Assets\Resources\Scrolls.xml" />
      <None Include="Assets\Resources\Essences.xml" />
+     <None Include="Assets\Resources\Skills.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
