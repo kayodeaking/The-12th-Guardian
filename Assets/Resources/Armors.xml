@@ -1352,206 +1352,241 @@
 		</Armor>
 		<Armor id="34">
 			<Name>Golden Earrings</Name>
-			<Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
-			<Price>250</Price>
-			<Category>General</Category>
-			<Type>Head</Type>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>5</Defense>
+			<Description>Special earrings rumored to be made of gold, though it may be untrue.</Description>
+			<Price>1000</Price>
+			<Category>Light</Category>
+			<Type>Earrings</Type>
+			<LevelReq>50</LevelReq>
+			<Attack>2</Attack>
+			<Defense>50</Defense>
 			<MagicAttack>0</MagicAttack>
-			<MagicDefense>2</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
+			<MagicDefense>25</MagicDefense>
+			<Agility>5</Agility>
+			<Luck>5</Luck>
 			<Corruption>0</Corruption>
-			<Body>0</Body>
-			<Soul>0</Soul>
+			<Body>50</Body>
+			<Soul>25</Soul>
 			<SoulSlots>
-				<SoulSlot>0</SoulSlot>
-				<SoulSlot>0</SoulSlot>
 				<SoulSlot>0</SoulSlot>
 			</SoulSlots>
 			<Consumable>false</Consumable>
 			<IngredientsIDs>
-				<IngredientsID>0</IngredientsID>
+				<IngredientsID>33</IngredientsID>
+				<IngredientsID>49</IngredientsID>
+				<IngredientsID>51</IngredientsID>
+				<IngredientsID>66</IngredientsID>
+				<IngredientsID>76</IngredientsID>
 			</IngredientsIDs>
 			<IngredientsAmounts>
-				<IngredientsAmount>
-				</IngredientsAmount>
+				<IngredientsAmount>1</IngredientsAmount>
+				<IngredientsAmount>20</IngredientsAmount>
+				<IngredientsAmount>20</IngredientsAmount>
+				<IngredientsAmount>20</IngredientsAmount>
+				<IngredientsAmount>25</IngredientsAmount>
 			</IngredientsAmounts>
 			<IngredientsDataIDs>
-				<IngredientsDataID>
-				</IngredientsDataID>
+				<IngredientsDataID>I</IngredientsDataID>
+				<IngredientsDataID>Es</IngredientsDataID>
+				<IngredientsDataID>Es</IngredientsDataID>
+				<IngredientsDataID>Es</IngredientsDataID>
+				<IngredientsDataID>Es</IngredientsDataID>
 			</IngredientsDataIDs>
 		</Armor>
 		<Armor id="35">
 			<Name>Dragon's Earrings</Name>
-			<Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
-			<Price>250</Price>
-			<Category>General</Category>
-			<Type>Head</Type>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>5</Defense>
+			<Description>Earrings said to be created by the Naga race.</Description>
+			<Price>1500</Price>
+			<Category>Light</Category>
+			<Type>Earrings</Type>
+			<LevelReq>100</LevelReq>
+			<Attack>4</Attack>
+			<Defense>100</Defense>
 			<MagicAttack>0</MagicAttack>
-			<MagicDefense>2</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
+			<MagicDefense>50</MagicDefense>
+			<Agility>10</Agility>
+			<Luck>10</Luck>
 			<Corruption>0</Corruption>
-			<Body>0</Body>
-			<Soul>0</Soul>
+			<Body>100</Body>
+			<Soul>50</Soul>
 			<SoulSlots>
-				<SoulSlot>0</SoulSlot>
-				<SoulSlot>0</SoulSlot>
 				<SoulSlot>0</SoulSlot>
 			</SoulSlots>
 			<Consumable>false</Consumable>
 			<IngredientsIDs>
-				<IngredientsID>0</IngredientsID>
+				<IngredientsID>33</IngredientsID>
+				<IngredientsID>49</IngredientsID>
+				<IngredientsID>65</IngredientsID>
+				<IngredientsID>76</IngredientsID>
 			</IngredientsIDs>
 			<IngredientsAmounts>
-				<IngredientsAmount>
-				</IngredientsAmount>
+				<IngredientsAmount>1</IngredientsAmount>
+				<IngredientsAmount>20</IngredientsAmount>
+				<IngredientsAmount>20</IngredientsAmount>
+				<IngredientsAmount>25</IngredientsAmount>
 			</IngredientsAmounts>
 			<IngredientsDataIDs>
-				<IngredientsDataID>
-				</IngredientsDataID>
+				<IngredientsDataID>I</IngredientsDataID>
+				<IngredientsDataID>Es</IngredientsDataID>
+				<IngredientsDataID>Es</IngredientsDataID>
+				<IngredientsDataID>Es</IngredientsDataID>
 			</IngredientsDataIDs>
 		</Armor>
 		<Armor id="36">
 			<Name>Lords Earrings</Name>
-			<Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
-			<Price>250</Price>
-			<Category>General</Category>
-			<Type>Head</Type>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>5</Defense>
+			<Description>A pair of Earrings only given to those with the title of Lord.</Description>
+			<Price>2000</Price>
+			<Category>Light</Category>
+			<Type>Earrings</Type>
+			<LevelReq>150</LevelReq>
+			<Attack>6</Attack>
+			<Defense>150</Defense>
 			<MagicAttack>0</MagicAttack>
-			<MagicDefense>2</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
+			<MagicDefense>75</MagicDefense>
+			<Agility>15</Agility>
+			<Luck>15</Luck>
 			<Corruption>0</Corruption>
-			<Body>0</Body>
-			<Soul>0</Soul>
+			<Body>150</Body>
+			<Soul>75</Soul>
 			<SoulSlots>
-				<SoulSlot>0</SoulSlot>
 				<SoulSlot>0</SoulSlot>
 				<SoulSlot>0</SoulSlot>
 			</SoulSlots>
 			<Consumable>false</Consumable>
 			<IngredientsIDs>
-				<IngredientsID>0</IngredientsID>
+				<IngredientsID>33</IngredientsID>
+				<IngredientsID>49</IngredientsID>
+				<IngredientsID>68</IngredientsID>
+				<IngredientsID>76</IngredientsID>
 			</IngredientsIDs>
 			<IngredientsAmounts>
-				<IngredientsAmount>
-				</IngredientsAmount>
+				<IngredientsAmount>1</IngredientsAmount>
+				<IngredientsAmount>20</IngredientsAmount>
+				<IngredientsAmount>20</IngredientsAmount>
+				<IngredientsAmount>25</IngredientsAmount>
 			</IngredientsAmounts>
 			<IngredientsDataIDs>
-				<IngredientsDataID>
-				</IngredientsDataID>
+				<IngredientsDataID>I</IngredientsDataID>
+				<IngredientsDataID>Es</IngredientsDataID>
+				<IngredientsDataID>Es</IngredientsDataID>
+				<IngredientsDataID>Es</IngredientsDataID>
 			</IngredientsDataIDs>
 		</Armor>
 		<Armor id="37">
 			<Name>Magic Earrings</Name>
-			<Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
-			<Price>250</Price>
-			<Category>General</Category>
-			<Type>Head</Type>
-			<LevelReq>0</LevelReq>
+			<Description>Earrings, said to provide some type of magical enhancement.</Description>
+			<Price>1000</Price>
+			<Category>Magic</Category>
+			<Type>Earrings</Type>
+			<LevelReq>50</LevelReq>
 			<Attack>0</Attack>
-			<Defense>5</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>2</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
+			<Defense>14</Defense>
+			<MagicAttack>3</MagicAttack>
+			<MagicDefense>27</MagicDefense>
+			<Agility>1</Agility>
+			<Luck>3</Luck>
 			<Corruption>0</Corruption>
 			<Body>0</Body>
-			<Soul>0</Soul>
+			<Soul>150</Soul>
 			<SoulSlots>
-				<SoulSlot>0</SoulSlot>
-				<SoulSlot>0</SoulSlot>
 				<SoulSlot>0</SoulSlot>
 			</SoulSlots>
 			<Consumable>false</Consumable>
 			<IngredientsIDs>
-				<IngredientsID>0</IngredientsID>
+				<IngredientsID>33</IngredientsID>
+				<IngredientsID>51</IngredientsID>
+				<IngredientsID>67</IngredientsID>
+				<IngredientsID>76</IngredientsID>
 			</IngredientsIDs>
 			<IngredientsAmounts>
-				<IngredientsAmount>
-				</IngredientsAmount>
+				<IngredientsAmount>1</IngredientsAmount>
+				<IngredientsAmount>5</IngredientsAmount>
+				<IngredientsAmount>10</IngredientsAmount>
+				<IngredientsAmount>15</IngredientsAmount>
 			</IngredientsAmounts>
 			<IngredientsDataIDs>
-				<IngredientsDataID>
-				</IngredientsDataID>
+				<IngredientsDataID>I</IngredientsDataID>
+				<IngredientsDataID>Es</IngredientsDataID>
+				<IngredientsDataID>Es</IngredientsDataID>
+				<IngredientsDataID>Es</IngredientsDataID>
 			</IngredientsDataIDs>
 		</Armor>
 		<Armor id="38">
 			<Name>Elven Earrings</Name>
-			<Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
-			<Price>250</Price>
-			<Category>General</Category>
-			<Type>Head</Type>
-			<LevelReq>0</LevelReq>
+			<Description>Earrings created by the elves. They are said to be one of the most magically connected races..</Description>
+			<Price>1500</Price>
+			<Category>Magic</Category>
+			<Type>Earrings</Type>
+			<LevelReq>100</LevelReq>
 			<Attack>0</Attack>
-			<Defense>5</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>2</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
+			<Defense>16</Defense>
+			<MagicAttack>6</MagicAttack>
+			<MagicDefense>32</MagicDefense>
+			<Agility>2</Agility>
+			<Luck>5</Luck>
 			<Corruption>0</Corruption>
 			<Body>0</Body>
-			<Soul>0</Soul>
+			<Soul>300</Soul>
 			<SoulSlots>
-				<SoulSlot>0</SoulSlot>
-				<SoulSlot>0</SoulSlot>
 				<SoulSlot>0</SoulSlot>
 			</SoulSlots>
 			<Consumable>false</Consumable>
 			<IngredientsIDs>
-				<IngredientsID>0</IngredientsID>
+				<IngredientsID>33</IngredientsID>
+				<IngredientsID>51</IngredientsID>
+				<IngredientsID>67</IngredientsID>
+				<IngredientsID>76</IngredientsID>
 			</IngredientsIDs>
 			<IngredientsAmounts>
-				<IngredientsAmount>
-				</IngredientsAmount>
+				<IngredientsAmount>1</IngredientsAmount>
+				<IngredientsAmount>10</IngredientsAmount>
+				<IngredientsAmount>15</IngredientsAmount>
+				<IngredientsAmount>15</IngredientsAmount>
 			</IngredientsAmounts>
 			<IngredientsDataIDs>
-				<IngredientsDataID>
-				</IngredientsDataID>
+				<IngredientsDataID>I</IngredientsDataID>
+				<IngredientsDataID>Es</IngredientsDataID>
+				<IngredientsDataID>Es</IngredientsDataID>
+				<IngredientsDataID>Es</IngredientsDataID>
 			</IngredientsDataIDs>
 		</Armor>
 		<Armor id="39">
 			<Name>Arch Mage Earrings</Name>
-			<Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
-			<Price>250</Price>
-			<Category>General</Category>
-			<Type>Head</Type>
-			<LevelReq>0</LevelReq>
+			<Description>Arch Mage Earrings said to be only wearable by the most magically powerful people.</Description>
+			<Price>2000</Price>
+			<Category>Magic</Category>
+			<Type>Earrings</Type>
+			<LevelReq>150</LevelReq>
 			<Attack>0</Attack>
-			<Defense>5</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>2</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
+			<Defense>22</Defense>
+			<MagicAttack>9</MagicAttack>
+			<MagicDefense>45</MagicDefense>
+			<Agility>3</Agility>
+			<Luck>5</Luck>
 			<Corruption>0</Corruption>
 			<Body>0</Body>
-			<Soul>0</Soul>
+			<Soul>450</Soul>
 			<SoulSlots>
-				<SoulSlot>0</SoulSlot>
 				<SoulSlot>0</SoulSlot>
 				<SoulSlot>0</SoulSlot>
 			</SoulSlots>
 			<Consumable>false</Consumable>
 			<IngredientsIDs>
-				<IngredientsID>0</IngredientsID>
+				<IngredientsID>33</IngredientsID>
+				<IngredientsID>51</IngredientsID>
+				<IngredientsID>67</IngredientsID>
+				<IngredientsID>76</IngredientsID>
 			</IngredientsIDs>
 			<IngredientsAmounts>
-				<IngredientsAmount>
-				</IngredientsAmount>
+				<IngredientsAmount>1</IngredientsAmount>
+				<IngredientsAmount>15</IngredientsAmount>
+				<IngredientsAmount>15</IngredientsAmount>
+				<IngredientsAmount>20</IngredientsAmount>
 			</IngredientsAmounts>
 			<IngredientsDataIDs>
-				<IngredientsDataID>
-				</IngredientsDataID>
+				<IngredientsDataID>I</IngredientsDataID>
+				<IngredientsDataID>Es</IngredientsDataID>
+				<IngredientsDataID>Es</IngredientsDataID>
+				<IngredientsDataID>Es</IngredientsDataID>
 			</IngredientsDataIDs>
 		</Armor>
 		<Armor id="40">
@@ -1572,33 +1607,32 @@
 			<Soul>0</Soul>
 			<SoulSlots>
 				<SoulSlot>0</SoulSlot>
-				<SoulSlot>0</SoulSlot>
-				<SoulSlot>0</SoulSlot>
 			</SoulSlots>
 			<Consumable>false</Consumable>
 			<IngredientsIDs>
-				<IngredientsID>0</IngredientsID>
+				<IngredientsID>33</IngredientsID>
+				<IngredientsID>99</IngredientsID>
 			</IngredientsIDs>
 			<IngredientsAmounts>
-				<IngredientsAmount>
-				</IngredientsAmount>
+				<IngredientsAmount>1</IngredientsAmount>
+				<IngredientsAmount>15</IngredientsAmount>
 			</IngredientsAmounts>
 			<IngredientsDataIDs>
-				<IngredientsDataID>
-				</IngredientsDataID>
+				<IngredientsDataID>I</IngredientsDataID>
+				<IngredientsDataID>I</IngredientsDataID>
 			</IngredientsDataIDs>
 		</Armor>
 		<Armor id="41">
 			<Name>Wooden Helmet</Name>
-			<Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
-			<Price>250</Price>
+			<Description>A leather helmet, made to give your head a bit of protection.</Description>
+			<Price>350</Price>
 			<Category>General</Category>
 			<Type>Head</Type>
-			<LevelReq>0</LevelReq>
+			<LevelReq>30</LevelReq>
 			<Attack>0</Attack>
-			<Defense>5</Defense>
+			<Defense>8</Defense>
 			<MagicAttack>0</MagicAttack>
-			<MagicDefense>2</MagicDefense>
+			<MagicDefense>4</MagicDefense>
 			<Agility>0</Agility>
 			<Luck>0</Luck>
 			<Corruption>0</Corruption>
@@ -1606,33 +1640,32 @@
 			<Soul>0</Soul>
 			<SoulSlots>
 				<SoulSlot>0</SoulSlot>
-				<SoulSlot>0</SoulSlot>
-				<SoulSlot>0</SoulSlot>
 			</SoulSlots>
 			<Consumable>false</Consumable>
 			<IngredientsIDs>
-				<IngredientsID>0</IngredientsID>
+				<IngredientsID>33</IngredientsID>
+				<IngredientsID>16</IngredientsID>
 			</IngredientsIDs>
 			<IngredientsAmounts>
-				<IngredientsAmount>
-				</IngredientsAmount>
+				<IngredientsAmount>1</IngredientsAmount>
+				<IngredientsAmount>15</IngredientsAmount>
 			</IngredientsAmounts>
 			<IngredientsDataIDs>
-				<IngredientsDataID>
-				</IngredientsDataID>
+				<IngredientsDataID>I</IngredientsDataID>
+				<IngredientsDataID>I</IngredientsDataID>
 			</IngredientsDataIDs>
 		</Armor>
 		<Armor id="42">
 			<Name>Bronze Helmet</Name>
-			<Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
-			<Price>250</Price>
+			<Description>A helmet made out of Bronze. Provides some protection from enemies.</Description>
+			<Price>450</Price>
 			<Category>General</Category>
 			<Type>Head</Type>
-			<LevelReq>0</LevelReq>
+			<LevelReq>60</LevelReq>
 			<Attack>0</Attack>
-			<Defense>5</Defense>
+			<Defense>15</Defense>
 			<MagicAttack>0</MagicAttack>
-			<MagicDefense>2</MagicDefense>
+			<MagicDefense>7</MagicDefense>
 			<Agility>0</Agility>
 			<Luck>0</Luck>
 			<Corruption>0</Corruption>
@@ -1640,33 +1673,32 @@
 			<Soul>0</Soul>
 			<SoulSlots>
 				<SoulSlot>0</SoulSlot>
-				<SoulSlot>0</SoulSlot>
-				<SoulSlot>0</SoulSlot>
 			</SoulSlots>
 			<Consumable>false</Consumable>
 			<IngredientsIDs>
-				<IngredientsID>0</IngredientsID>
+				<IngredientsID>33</IngredientsID>
+				<IngredientsID>70</IngredientsID>
 			</IngredientsIDs>
 			<IngredientsAmounts>
-				<IngredientsAmount>
-				</IngredientsAmount>
+				<IngredientsAmount>1</IngredientsAmount>
+				<IngredientsAmount>15</IngredientsAmount>
 			</IngredientsAmounts>
 			<IngredientsDataIDs>
-				<IngredientsDataID>
-				</IngredientsDataID>
+				<IngredientsDataID>I</IngredientsDataID>
+				<IngredientsDataID>I</IngredientsDataID>
 			</IngredientsDataIDs>
 		</Armor>
 		<Armor id="43">
 			<Name>Astro Helmet</Name>
-			<Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
-			<Price>250</Price>
+			<Description>The minerals mixed together to create this helmet are said to give it an out of this world look.</Description>
+			<Price>750</Price>
 			<Category>General</Category>
 			<Type>Head</Type>
-			<LevelReq>0</LevelReq>
+			<LevelReq>90</LevelReq>
 			<Attack>0</Attack>
-			<Defense>5</Defense>
+			<Defense>45</Defense>
 			<MagicAttack>0</MagicAttack>
-			<MagicDefense>2</MagicDefense>
+			<MagicDefense>22</MagicDefense>
 			<Agility>0</Agility>
 			<Luck>0</Luck>
 			<Corruption>0</Corruption>
@@ -1674,94 +1706,102 @@
 			<Soul>0</Soul>
 			<SoulSlots>
 				<SoulSlot>0</SoulSlot>
-				<SoulSlot>0</SoulSlot>
-				<SoulSlot>0</SoulSlot>
 			</SoulSlots>
 			<Consumable>false</Consumable>
 			<IngredientsIDs>
-				<IngredientsID>0</IngredientsID>
+				<IngredientsID>33</IngredientsID>
+				<IngredientsID>71</IngredientsID>
+				<IngredientsID>72</IngredientsID>
+				<IngredientsID>73</IngredientsID>
 			</IngredientsIDs>
 			<IngredientsAmounts>
-				<IngredientsAmount>
-				</IngredientsAmount>
+				<IngredientsAmount>1</IngredientsAmount>
+				<IngredientsAmount>5</IngredientsAmount>
+				<IngredientsAmount>5</IngredientsAmount>
+				<IngredientsAmount>5</IngredientsAmount>
 			</IngredientsAmounts>
 			<IngredientsDataIDs>
-				<IngredientsDataID>
-				</IngredientsDataID>
+				<IngredientsDataID>I</IngredientsDataID>
+				<IngredientsDataID>Es</IngredientsDataID>
+				<IngredientsDataID>Es</IngredientsDataID>
+				<IngredientsDataID>Es</IngredientsDataID>
 			</IngredientsDataIDs>
 		</Armor>
 		<Armor id="44">
 			<Name>Devastation Helmet</Name>
-			<Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
-			<Price>250</Price>
+			<Description>A helmet created from a mix of both Blood and Corrupt minerals, a devastating combination.</Description>
+			<Price>1500</Price>
 			<Category>General</Category>
 			<Type>Head</Type>
-			<LevelReq>0</LevelReq>
+			<LevelReq>120</LevelReq>
 			<Attack>0</Attack>
-			<Defense>5</Defense>
+			<Defense>63</Defense>
 			<MagicAttack>0</MagicAttack>
-			<MagicDefense>2</MagicDefense>
+			<MagicDefense>31</MagicDefense>
 			<Agility>0</Agility>
 			<Luck>0</Luck>
-			<Corruption>0</Corruption>
-			<Body>0</Body>
-			<Soul>0</Soul>
+			<Corruption>10</Corruption>
+			<Body>50</Body>
+			<Soul>50</Soul>
 			<SoulSlots>
-				<SoulSlot>0</SoulSlot>
-				<SoulSlot>0</SoulSlot>
-				<SoulSlot>0</SoulSlot>
-			</SoulSlots>
+				<SoulSlot>0</SoulSlot></SoulSlots>
 			<Consumable>false</Consumable>
 			<IngredientsIDs>
-				<IngredientsID>0</IngredientsID>
+				<IngredientsID>33</IngredientsID>
+				<IngredientsID>74</IngredientsID>
+				<IngredientsID>75</IngredientsID>
 			</IngredientsIDs>
 			<IngredientsAmounts>
-				<IngredientsAmount>
-				</IngredientsAmount>
+				<IngredientsAmount>1</IngredientsAmount>
+				<IngredientsAmount>10</IngredientsAmount>
+				<IngredientsAmount>10</IngredientsAmount>
 			</IngredientsAmounts>
 			<IngredientsDataIDs>
-				<IngredientsDataID>
-				</IngredientsDataID>
+				<IngredientsDataID>I</IngredientsDataID>
+				<IngredientsDataID>Es</IngredientsDataID>
+				<IngredientsDataID>Es</IngredientsDataID>
 			</IngredientsDataIDs>
 		</Armor>
 		<Armor id="45">
 			<Name>Death's Helmet</Name>
-			<Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
-			<Price>250</Price>
+			<Description>It was said that the first Guardian of Death use to be a warrior. This helmet is rumored to be theres.</Description>
+			<Price>2500</Price>
 			<Category>General</Category>
 			<Type>Head</Type>
-			<LevelReq>0</LevelReq>
-			<Attack>0</Attack>
-			<Defense>5</Defense>
-			<MagicAttack>0</MagicAttack>
-			<MagicDefense>2</MagicDefense>
-			<Agility>0</Agility>
-			<Luck>0</Luck>
+			<LevelReq>150</LevelReq>
+			<Attack>3</Attack>
+			<Defense>81</Defense>
+			<MagicAttack>3</MagicAttack>
+			<MagicDefense>40</MagicDefense>
+			<Agility>3</Agility>
+			<Luck>3</Luck>
 			<Corruption>0</Corruption>
-			<Body>0</Body>
-			<Soul>0</Soul>
+			<Body>100</Body>
+			<Soul>100</Soul>
 			<SoulSlots>
-				<SoulSlot>0</SoulSlot>
-				<SoulSlot>0</SoulSlot>
 				<SoulSlot>0</SoulSlot>
 			</SoulSlots>
 			<Consumable>false</Consumable>
 			<IngredientsIDs>
-				<IngredientsID>0</IngredientsID>
+				<IngredientsID>33</IngredientsID>
+				<IngredientsID>76</IngredientsID>
+				<IngredientsID>69</IngredientsID>
 			</IngredientsIDs>
 			<IngredientsAmounts>
-				<IngredientsAmount>
-				</IngredientsAmount>
+				<IngredientsAmount>1</IngredientsAmount>
+				<IngredientsAmount>10</IngredientsAmount>
+				<IngredientsAmount>10</IngredientsAmount>
 			</IngredientsAmounts>
 			<IngredientsDataIDs>
-				<IngredientsDataID>
-				</IngredientsDataID>
+				<IngredientsDataID>I</IngredientsDataID>
+				<IngredientsDataID>Es</IngredientsDataID>
+				<IngredientsDataID>Es</IngredientsDataID>
 			</IngredientsDataIDs>
 		</Armor>
 		<Armor id="46">
 			<Name>Guardian Helmet</Name>
-			<Description>A normal hat made out of straw, said to be a favorite among farmers.</Description>
-			<Price>250</Price>
+			<Description>A helmet acquired after becoming a full fledged Guardian.</Description>
+			<Price>3500</Price>
 			<Category>General</Category>
 			<Type>Head</Type>
 			<LevelReq>0</LevelReq>
